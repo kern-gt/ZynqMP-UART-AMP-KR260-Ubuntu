@@ -28,14 +28,14 @@ graph TB;
     end
 ```
 
-CA53 : ARM Cortex-A53
+CA53 : ARM Cortex-A53  
 CR5 : ARM Cortex-R5
-
+<br><br>
 ## Getting Started
 Pre-built firmware and Bitstream are available to try an immediate echo-back test.
 See below for details.
 [linux_uart_amp_echo_test/README.md](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/linux_uart_amp_echo_test/README.md)
-
+<br><br><br>
 ## Folder structure
 ### hw_export
 For more information, please refer to the following

@@ -27,14 +27,14 @@ graph TB;
     end
 ```
 
-CA53 : ARM Cortex-A53
+CA53 : ARM Cortex-A53  
 CR5 : ARM Cortex-R5
-
-## Getting Started
+<br><br>
+## エコーバックテストを試す
 ビルド済みのファームウェアとBitstreamを用意してあり、すぐにエコーバックテストを試すことができます。
 詳しくは以下を参照してください。
 [linux_uart_amp_echo_test/README_jp.md](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/linux_uart_amp_echo_test/README_jp.md)
-
+<br><br><br>
 ## フォルダ構成
 ### hw_export
 詳しくは以下を参照してください。
