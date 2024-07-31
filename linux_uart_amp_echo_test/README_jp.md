@@ -137,30 +137,30 @@ linux_echo_testフォルダに以下のファイルを配置してあります.
     - test_data.txt : エコーバックテストで使用する通信データ定義
     - requirements.txt
   
-**linux_echo_test/**
+**linux_echo_test/**  
 CA53(Linux)側で実行するPython実装のエコーバックテストのコードを置いてあります(uart_amp_echo_test.py).
 送信と受信を別スレッドに分け、できるだけサブコアに負荷を掛けられるようにしてあります.
 test_data.txtはエコーバックテストの転送データを定義してあります.デフォルトは33000byteのデータサイズになります.
 requirements.txtはvenvでPython仮想環境を作成した際に必要となるパッケージを定義してあります.
   
-**bitstream/**
+**bitstream/**  
 bitstreamファイルは".bit"ではなく、".bin"ファイルを用意します.Vivadoで"Setting>bitstream"から設定できます.また、bitstreamファイルにMicroblaze用のELFを結合しておきます.これはVivadoの"Tools>Associate ELF Files..."で結合ツールを立ち上げることが出来ます.
 Microblaze用のELFはVitis Classic IDEのプロジェクトフォルダにあります.
 ```
 microblaze_firmware.vitis_classic/app_echo_uart_mb_0/Release/app_echo_uart_mb_0.elf
 ```
   
-**dtbo/**
+**dtbo/**  
 Devicetree Overlayファイルはhw_exportフォルダ内のXSAファイルからPL用デバイスツリーソースコードを生成し、DTBにコンパイルすると得られます.詳しくはhw_exportフォルダのREADME.mdを参照してください.
   
-**r5_fw/**
+**r5_fw/**  
 CR5コア用ELFはVitis Unified IDEのプロジェクトフォルダにあります.
 ```
 r5_firmware.vitis_unified_ide/app_echo_uart_r5_0/build/app_echo_uart_r5_0.elf
 r5_firmware.vitis_unified_ide/app_echo_uart_r5_1/build/app_echo_uart_r5_1.elf
 ```
   
-**setup_fpga_remoteproc_ubuntu.sh**
+**setup_fpga_remoteproc_ubuntu.sh**  
 このスクリプトでは以下のことやっています.
 1. xmutil機能向けのアプリケーションフォルダの作成
 1. xmutilコマンドを使用した、FPGA Configuration

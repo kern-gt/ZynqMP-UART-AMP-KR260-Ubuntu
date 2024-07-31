@@ -138,30 +138,30 @@ The following files are located in the linux_echo_test folder.
     - test_data.txt : Communication data definition used for echo back test
     - requirements.txt
   
-**linux_echo_test/**
+**linux_echo_test/**  
 The code for the Python implementation of the echo-back test to be executed on the CA53 (Linux) side is placed here (uart_amp_echo_test.py).
 The sending and receiving are separated into separate threads so that as much load as possible can be placed on the sub-core.
 test_data.txt defines the transfer data for the echo back test. The default data size is 33000 bytes.
 requirements.txt defines the packages required when creating a Python virtual environment with venv.
   
-**bitstream/**
+**bitstream/**  
 The bitstream file should be a “.bin” file, not a “.bit” file. Also, combine the ELF for Microblaze into the bitstream file. This can be done in Vivado by going to “Tools>Associate ELF Files...” in Vivado.
 The ELFs for Microblaze are located in the project folder of the Vitis Classic IDE.
 ```
 microblaze_firmware.vitis_classic/app_echo_uart_mb_0/Release/app_echo_uart_mb_0.elf
 ```
   
-**dtbo/**
+**dtbo/**  
 The Devicetree Overlay file is obtained by generating the device tree source code for PL from the XSA file in the hw_export folder and compiling it to DTB. See README.md in hw_export folder for details.
   
-**r5_fw/**
+**r5_fw/**  
 The ELF for CR5 core is located in the project folder of Vitis Unified IDE.
 ```
 r5_firmware.vitis_unified_ide/app_echo_uart_r5_0/build/app_echo_uart_r5_0.elf
 r5_firmware.vitis_unified_ide/app_echo_uart_r5_1/build/app_echo_uart_r5_1.elf
 ```
   
-**setup_fpga_remoteproc_ubuntu.sh**
+**setup_fpga_remoteproc_ubuntu.sh**  
 1. This script does the following
 1. Create application folder for xmutil function
 1. FPGA Configuration using xmutil command
