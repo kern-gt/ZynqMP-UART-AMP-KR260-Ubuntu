@@ -1,6 +1,6 @@
-## OpenAMP Devicetree
+# OpenAMP Devicetree
 
-[Click here for the English version]()
+[Click here for the English version](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/openamp_dts/README.md)
 
 ## 概要
 UART-AMPではサブコアのCortex-R5(CR5)のELFのロードおよび、起動・停止管理にOpenAMPのRemoteproc機能を利用します。そのために、KriaSOM(ZynqMP)のデフォルトのDevicetreeを書き換える必要があります。

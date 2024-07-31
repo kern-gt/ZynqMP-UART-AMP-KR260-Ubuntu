@@ -1,6 +1,6 @@
-## UART-AMP Echo Back Test
+# UART-AMP Echo Back Test
 
-[日本語版はこちら]()
+[日本語版はこちら](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/linux_uart_amp_echo_test/README_jp.md)
 
 ## Overview
 This test code sends the contents of test data (test_data.txt) from ZynqMP CA53 (Linux) to UART and verifies if the data looped back from the subcore is correct.

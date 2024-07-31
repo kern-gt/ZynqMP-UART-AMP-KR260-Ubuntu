@@ -1,6 +1,6 @@
 # PL Devicetree Overlay
 
-[日本語版はこちら]()
+[日本語版はこちら](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/hw_export/README_jp.md)
 
 ## Overview
 Generate a device tree overlay file for PL (FPGA) from a Vivado hardware export file (XSA). Scripts for generation and device tree compilation are provided.

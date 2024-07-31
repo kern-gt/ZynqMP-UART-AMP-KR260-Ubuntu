@@ -1,6 +1,6 @@
 # PL Devicetree Overlay
 
-[Click here for the English version]()
+[Click here for the English version](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/hw_export/README.md)
 
 ## 概要
 Vivadoのハードウェアエクスポートファイル(XSA)からPL(FPGA)用のデバイスツリーオーバーレイファイルを生成します。生成用とデバイスツリーコンパイル用のスクリプトを用意しています。

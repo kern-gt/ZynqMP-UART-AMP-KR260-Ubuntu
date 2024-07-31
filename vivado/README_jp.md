@@ -1,6 +1,6 @@
 # Vivado
 
-[Click here for the English version]()
+[Click here for the English version](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/vivado/README.md)
 
 ## 概要
 IPインテグレータのTCLとKR260ボード用の制約条件ファイル(.xdc)を格納してあります。Vivadoでプロジェクト新規作成した後、TCLを実行すると、IPブロックを展開できます。

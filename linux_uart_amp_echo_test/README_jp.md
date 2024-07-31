@@ -1,6 +1,6 @@
 # UART-AMP エコーバックテスト
 
-[Click here for the English version]()
+[Click here for the English version](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/linux_uart_amp_echo_test/README.md)
 
 ## 概要
 このテストコードはZynqMPのCA53(Linux)からテストデータ(test_data.txt)の内容をUARTに送信し、サブコアからループバックしてきたデータが正しいかどうかを検証します.

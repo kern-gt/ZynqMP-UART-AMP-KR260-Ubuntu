@@ -1,7 +1,7 @@
 
-## UART-AMP for Kria(ZynqMP) 
+# UART-AMP for Kria(ZynqMP) 
 
-[日本語版はこちら]()
+[日本語版はこちら](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/README_jp.md)
 
 ## Overview
 This is a demonstration of core-to-core communication between Linux and a sub-core on ZynqMP. The following configurations are supported.
@@ -34,12 +34,12 @@ CR5 : ARM Cortex-R5
 ## Getting Started
 Pre-built firmware and Bitstream are available to try an immediate echo-back test.
 See below for details.
-[linux_uart_amp_echo_test/README.md]()
+[linux_uart_amp_echo_test/README.md](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/linux_uart_amp_echo_test/README.md)
 
 ## Folder structure
 ### hw_export
 For more information, please refer to the following
-[hw_export/README.md]()
+[hw_export/README.md](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/hw_export/README.md)
 
 ### jtag_tcl
 Kria K26 SOM does not have a switch for Jtagboot, so you need to use the TCL command from XSCT to switch to Jtag debugging on the sub-core.
@@ -47,7 +47,7 @@ You can switch by running switch_jtagboot.sh.
 
 ### linux_echo_test_app
 This contains the echo back test code to be executed on CA53 (Linux side). See below for details.
-[linux_uart_amp_echo_test/README.md]()
+[linux_uart_amp_echo_test/README.md](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/linux_uart_amp_echo_test/README.md)
 
 ### microblaze_firmware.vitis_classic
 Contains projects for the subcore Microblaze development environment.
@@ -57,7 +57,7 @@ Only Microblaze uses the Classic version because of debugging problems with the 
 ### openamp_dts
 CR5 firmware ELF is loaded, remoteproc is required to manage core startup and shutdown. To do this, the base Devicetree needs to be rewritten.
 See below for details.
-[openamp_dts/README.md]()
+[openamp_dts/README.md](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/openamp_dts/README.md)
 
 ### r5_firmware.vitis_unified_ide
 Contains projects for sub-core CR5 development environment.
@@ -67,4 +67,4 @@ Vitis Unified IDE v2024.1.1
 Contains TCL and constraint files (.xdc) for IP integrators.
 When you create a new project and run the TCL, the IP block is generated.
 See below for more information.
-[vivado/README.md]()
+[vivado/README.md](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/vivado/README.md)
