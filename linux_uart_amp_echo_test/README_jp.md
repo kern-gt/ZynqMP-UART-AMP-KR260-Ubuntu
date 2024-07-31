@@ -3,7 +3,7 @@
 [Click here for the English version](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/linux_uart_amp_echo_test/README.md)
 
 ## 概要
-このテストコードはZynqMPのCA53(Linux)からテストデータ(test_data.txt)の内容をUARTに送信し、サブコアからループバックしてきたデータが正しいかどうかを検証します.
+このテストコードはZynqMPのCA53(Linux)からテストデータ(test_data.txt)の内容をUARTに送信し、サブコアからループバックしてきたデータが正しいかどうかを検証します.  
 **環境**
 * KR260ボード
 * Xilinx認定Ubuntu22.04
@@ -21,15 +21,15 @@
 * openamp_dtb : OpenAMP用の
 
 ## Getting Started
-エコーバックテストの動かし方を紹介します.
+エコーバックテストの動かし方を紹介します.  
 **手順**
 1. ZynqMPにプログラムをコピー
 1. OpenAMP用のDevicetreeのインストール
 1. UART-AMPのセットアップ
 1. Python環境のセットアップ
 1. エコーバックテストの実行
-
-#### 1. ZynqMPにプログラムをコピー
+  
+### 1. ZynqMPにプログラムをコピー
 _linux_uart_amp_echo_test_ フォルダをまるごとZynqMP側にコピーします.
 方法はいくつかあります.
 * VSCodeのRemoteSSHでフォルダごとドラッグ＆ドロップする
@@ -37,8 +37,8 @@ _linux_uart_amp_echo_test_ フォルダをまるごとZynqMP側にコピーし�
 * ZynqMPのSDカードをホストPCに挿してコピーする
 
 VSCodeのRemoteSSHが楽でおすすめです.
-
-#### 2. OpenAMP用のDevicetreeのインストール
+  
+### 2. OpenAMP用のDevicetreeのインストール
 Devicetree本体は以下のフォルダにあります.
 ```
 linux_uart_amp_echo_test/setup_fpga_remoteproc/openamp_dtb/user-override.dtb
@@ -57,8 +57,8 @@ $ ls -1 /sys/class/remoteproc/
 remoteproc0
 remoteproc1
 ```
-
-#### 3. Setup UART-AMP
+  
+### 3. Setup UART-AMP
 PL(FPGA)とサブコア(CR5-0、CR5-1、Microblaze)の3コアのループバックファームウェアをセットアップします.
 
 ZynqMP上で以下のスクリプトを実行します.
@@ -69,8 +69,8 @@ $ sudo bash ./setup_fpga_remoteproc/setup_fpga_remoteproc_ubuntu.sh
 ```
 
 PL(FPGA)がコンフィグレーションされ、SFP_LED1が不規則点滅を始めます.また、CR5の2コアが起動するため、UF1_LEDとUF2_LEDが不規則点滅を初めます.
-
-#### 4. Python環境のセットアップ
+  
+### 4. Python環境のセットアップ
 サブコアが起動できたら、Linux側のテストアプリを動かすための準備を行います.
 pyserialパッケージが必要です.また、venvで仮想環境を作成するため、あらかじめ、Python Versionに合ったvenvを使えるようにする必要があります.
 ```
@@ -87,8 +87,8 @@ pip        22.0.2
 pyserial   3.5
 setuptools 59.6.0
 ```
-
-#### 5. エコーバックテストの実行
+  
+### 5. エコーバックテストの実行
 ３つのサブコアのうち、使用する1つを選択します.
 UARTのデバイスファイル名は下記コマンドで確認できます.
 ```
@@ -119,9 +119,9 @@ Verify Pass. count_bytes= 32998  recv=b'8'
 Verify Pass. count_bytes= 32999  recv=b'\n'
 Success echo test.
 ```
-
+<br><br><br>
 ## 開発者向け情報
-#### フォルダ構成
+### フォルダ構成
 setup_fpga_remoteprocフォルダに以下のファイルを配置してあります.
 1. linux_echo_test/
     - setup_fpga_remoteproc/
@@ -136,30 +136,30 @@ setup_fpga_remoteprocフォルダに以下のファイルを配置してあり�
     - uart_amp_echo_test.py : Python実装のLinux UARTエコーバックテスト
     - test_data.txt : エコーバックテストで使用する通信データ定義
     - requirements.txt
-
+  
 **linux_echo_test/**
 CA53(Linux)側で実行するPython実装のエコーバックテストのコードを置いてあります(uart_amp_echo_test.py)。
 送信と受信を別スレッドに分け、できるだけサブコアに負荷を掛けられるようにしてあります。
 test_data.txtはエコーバックテストの転送データを定義してあります。デフォルトは33000byteのデータサイズになります。
 requirements.txtはvenvでPython仮想環境を作成した際に必要となるパッケージを定義してあります。
-
+  
 **bitstream/**
 bitstreamファイルは".bit"ではなく、".bin"ファイルを用意します.Vivadoで"Setting>bitstream"から設定できます.また、bitstreamファイルにMicroblaze用のELFを結合しておきます.これはVivadoの"Tools>Associate ELF Files..."で結合ツールを立ち上げることが出来ます.
 Microblaze用のELFはVitis Classic IDEのプロジェクトフォルダにあります.
 ```
 microblaze_firmware.vitis_classic/app_echo_uart_mb_0/Release/app_echo_uart_mb_0.elf
 ```
-
+  
 **dtbo/**
 Devicetree Overlayファイルはhw_exportフォルダ内のXSAファイルからPL用デバイスツリーソースコードを生成し、DTBにコンパイルすると得られます.詳しくはhw_exportフォルダのREADME.mdを参照してください.
-
+  
 **r5_fw/**
 CR5コア用ELFはVitis Unified IDEのプロジェクトフォルダにあります.
 ```
 r5_firmware.vitis_unified_ide/app_echo_uart_r5_0/build/app_echo_uart_r5_0.elf
 r5_firmware.vitis_unified_ide/app_echo_uart_r5_1/build/app_echo_uart_r5_1.elf
 ```
-
+  
 **setup_fpga_remoteproc_ubuntu.sh**
 このスクリプトでは以下のことやっています.
 1. xmutil機能向けのアプリケーションフォルダの作成
@@ -171,13 +171,13 @@ r5_firmware.vitis_unified_ide/app_echo_uart_r5_1/build/app_echo_uart_r5_1.elf
 Devicetree Overlayにより、以下のフォルダにUARTデバイスファイルが出現します.
 * /dev/ttyULx
 
-#### テストデータ
+### テストデータ
 test_data.txtに転送データを定義してあります.
 デフォルトは33000Byteのデータになります.
 
 
 
-#### 通信ボーレートについて
+### 通信ボーレートについて
 CR5用とMicroblaze用でAXI-UARTLiteのボーレートを変えてあります.
 * CR5 : 115200bps
 * Microbaze : 9600bps

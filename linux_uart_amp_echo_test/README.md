@@ -3,7 +3,7 @@
 [日本語版はこちら](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/linux_uart_amp_echo_test/README_jp.md)
 
 ## Overview
-This test code sends the contents of test data (test_data.txt) from ZynqMP CA53 (Linux) to UART and verifies if the data looped back from the subcore is correct.
+This test code sends the contents of test data (test_data.txt) from ZynqMP CA53 (Linux) to UART and verifies if the data looped back from the subcore is correct.  
 **Environment**
 * KR260 board
 * Xilinx certified Ubuntu 22.04
@@ -21,7 +21,7 @@ This folder contains the following items.
 * openamp_dtb : setup script for OpenAMP
 
 ## Getting Started
-How to run an echo back test.
+How to run an echo back test.  
 **Procedures**
 1. copy the program to ZynqMP
 1. install Devicetree for OpenAMP
@@ -29,7 +29,7 @@ How to run an echo back test.
 1. Setup the Python environment
 1. Running the echo-back test
 
-#### 1. copy program to ZynqMP
+### 1. copy program to ZynqMP
 Copy the entire _linux_uart_amp_echo_test_ folder to the ZynqMP side.
 There are several ways to do this.
 * Drag and drop the entire folder using RemoteSSH of VSCode.
@@ -38,7 +38,7 @@ There are several ways to do this.
 
 VSCode's RemoteSSH is easy and recommended.
 
-#### 2. Install Devicetree for OpenAMP
+### 2. Install Devicetree for OpenAMP
 Devicetree itself is located in the following folder.
 ```
 linux_uart_amp_echo_test/setup_fpga_remoteproc/openamp_dtb/user-override.dtb
@@ -58,7 +58,7 @@ remoteproc0
 remoteproc1
 ```
 
-#### 3. Setup UART-AMP
+### 3. Setup UART-AMP
 Setup loopback firmware for 3 cores: PL (FPGA) and sub-cores (CR5-0, CR5-1, Microblaze).
 
 Run the following script on ZynqMP.
@@ -70,7 +70,7 @@ $ sudo bash . /setup_fpga_remoteproc/setup_fpga_remoteproc_ubuntu.sh
 
 PL (FPGA) is configured and SFP_LED1 starts blinking irregularly. Also, UF1_LED and UF2_LED start blinking irregularly because two cores of CR5 are activated.
 
-#### 4. Python environment setup
+### 4. Python environment setup
 Once the sub-cores are up and running, prepare to run the test application on the Linux side.
 You will need the pyserial package. Also, since we will be creating a virtual environment with venv, you will need to make sure that you have the correct version of venv for your Python version.
 ```
@@ -89,7 +89,7 @@ pyserial 3.5
 setuptools 59.6.0
 ```
 
-#### 5. Run the echo-back test
+### 5. Run the echo-back test
 Select one of the three sub-cores to use.
 You can find the device file name of the UART with the following command: 
 ```
@@ -120,9 +120,9 @@ Verify Pass. count_bytes= 32998 recv=b'8' (...)
 Verify Pass. count_bytes= 32999 recv=b'\n'
 Success echo test.
 ```
-
+<br><br><br>
 ## Information for developers
-#### Folder structure
+### Folder structure
 The following files are located in the setup_fpga_remoteproc folder.
 1. linux_echo_test/
     - setup_fpga_remoteproc/
@@ -137,30 +137,30 @@ The following files are located in the setup_fpga_remoteproc folder.
     - uart_amp_echo_test.py : Python implementation of Linux UART echo back test
     - test_data.txt : Communication data definition used for echo back test
     - requirements.txt
-
+  
 **linux_echo_test/**
 The code for the Python implementation of the echo-back test to be executed on the CA53 (Linux) side is placed here (uart_amp_echo_test.py).
 The sending and receiving are separated into separate threads so that as much load as possible can be placed on the sub-core.
 test_data.txt defines the transfer data for the echo back test. The default data size is 33000 bytes.
 requirements.txt defines the packages required when creating a Python virtual environment with venv.
-
+  
 **bitstream/**
 The bitstream file should be a “.bin” file, not a “.bit” file. Also, combine the ELF for Microblaze into the bitstream file. This can be done in Vivado by going to “Tools>Associate ELF Files...” in Vivado.
 The ELFs for Microblaze are located in the project folder of the Vitis Classic IDE.
 ```
 microblaze_firmware.vitis_classic/app_echo_uart_mb_0/Release/app_echo_uart_mb_0.elf
 ```
-
+  
 **dtbo/**
 The Devicetree Overlay file is obtained by generating the device tree source code for PL from the XSA file in the hw_export folder and compiling it to DTB. See README.md in hw_export folder for details.
-
+  
 **r5_fw/**
 The ELF for CR5 core is located in the project folder of Vitis Unified IDE.
 ```
 r5_firmware.vitis_unified_ide/app_echo_uart_r5_0/build/app_echo_uart_r5_0.elf
 r5_firmware.vitis_unified_ide/app_echo_uart_r5_1/build/app_echo_uart_r5_1.elf
 ```
-
+  
 **setup_fpga_remoteproc_ubuntu.sh**
 1. This script does the following
 1. Create application folder for xmutil function
@@ -172,11 +172,11 @@ r5_firmware.vitis_unified_ide/app_echo_uart_r5_1/build/app_echo_uart_r5_1.elf
 Devicetree Overlay will create UART device files in the following folder.
 * /dev/ttyULx
 
-#### Test data
+### Test data
 The transfer data is defined in test_data.txt.
 The default data is 33000Byte.
 
-#### Communication baud rate
+### Communication baud rate
 The baud rate of AXI-UARTLite is different for CR5 and Microblaze.
 * CR5 : 115200bps
 * Microbaze : 9600bps
