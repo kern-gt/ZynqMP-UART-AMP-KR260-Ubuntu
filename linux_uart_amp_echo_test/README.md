@@ -123,7 +123,7 @@ Success echo test.
 <br><br><br>
 ## Information for developers
 ### Folder structure
-The following files are located in the setup_fpga_remoteproc folder.
+The following files are located in the linux_echo_test folder.
 1. linux_echo_test/
     - setup_fpga_remoteproc/
         - bitstream/
