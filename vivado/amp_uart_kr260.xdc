@@ -1,0 +1,8 @@
+set_property PACKAGE_PIN E8 [get_ports {UF2_LED_tri_o[0]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {UF2_LED_tri_o[0]}]
+set_property PACKAGE_PIN G8 [get_ports {SFP_LED1_tri_o[0]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {SFP_LED1_tri_o[0]}]
+set_property PACKAGE_PIN F8 [get_ports {UF1_LED_tri_o[0]}]
+set_property IOSTANDARD LVCMOS18 [get_ports {UF1_LED_tri_o[0]}]
+set_property PACKAGE_PIN A12 [get_ports {fan_en[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {fan_en[0]}]
