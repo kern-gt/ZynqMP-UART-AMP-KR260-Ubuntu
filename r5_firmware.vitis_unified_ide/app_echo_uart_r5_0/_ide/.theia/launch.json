@@ -1,0 +1,56 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "tcf-debug",
+			"request": "launch",
+			"name": "app_echo_uart_r5_0_app_hw_1",
+			"debugType": "baremetal-zu",
+			"attachToRunningTargetOptions": {
+				"targetSetupMode": "standalone",
+				"executeScript": true,
+				"scriptPath": ""
+			},
+			"autoAttachProcessChildren": false,
+			"target": {
+				"targetConnectionId": "Local",
+				"peersIniPath": "../../../.wsdata/.peers.ini",
+				"context": "ZUPlus"
+			},
+			"targetSetup": {
+				"resetSystem": true,
+				"programDevice": true,
+				"enableRPUSplitMode": true,
+				"resetAPU": false,
+				"resetRPU": false,
+				"bitstreamFile": "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/kr260_amp_uart_release.runs/impl_1/design_1_wrapper.bin",
+				"zuInitialization": {
+					"isFsbl": true,
+					"usingFSBL": {
+						"initWithFSBL": true,
+						"fsblFile": "${workspaceFolder}/pf_amp_uart_r5_0/export/pf_amp_uart_r5_0/sw/boot/fsbl.elf",
+						"fsblExitSymbol": "XFsbl_Exit"
+					},
+					"usingPsuInit": {
+						"runPsuInit": true,
+						"plPowerup": false,
+						"psuInitTclFile": "${workspaceFolder}/app_echo_uart_r5_0/_ide/psinit/psu_init.tcl"
+					}
+				},
+				"downloadElf": [
+					{
+						"core": "psu_cortexr5_0",
+						"resetProcessor": true,
+						"elfFile": "${workspaceFolder}/app_echo_uart_r5_0/build/app_echo_uart_r5_0.elf",
+						"stopAtEntry": false
+					}
+				],
+				"crossTriggerBreakpoints": {
+					"isSelected": false,
+					"breakpoints": []
+				}
+			},
+			"internalConsoleOptions": "openOnSessionStart"
+		}
+	]
+}

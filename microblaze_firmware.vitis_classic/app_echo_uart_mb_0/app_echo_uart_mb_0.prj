@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="app_echo_uart_mb_0" location="/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitisclassic/app_echo_uart_mb_0" platform="/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitisclassic/pf_kr260_amp_uart_mb_0/export/pf_kr260_amp_uart_mb_0/pf_kr260_amp_uart_mb_0.xpfm" platformUID="xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector_som240_2_connector_kr260_carrier_som240_2_connector::0.0(custom)" systemProject="app_echo_uart_mb_0_system" sysConfig="pf_kr260_amp_uart_mb_0" runtime="C/C++" cpu="freertos10_xilinx_domain" cpuInstance="microblaze_0" os="freertos10_xilinx" mssSignature="2ad81a69f375053dd752642e6331e2d6">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.2078517321">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.915188708">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="freertos_hello_world" hasBspSettings="true"/>
+</sdkproject:SdkProject>

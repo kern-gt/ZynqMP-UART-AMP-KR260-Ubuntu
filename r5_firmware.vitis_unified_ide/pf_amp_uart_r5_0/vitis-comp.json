@@ -1,0 +1,58 @@
+{
+  "name": "pf_amp_uart_r5_0",
+  "type": "PLATFORM",
+  "configuration": {
+    "description": "",
+    "xsa": "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/dts_gen/design_1_wrapper.xsa",
+    "xsaPathInPlatform": "pf_amp_uart_r5_0/hw/design_1_wrapper.xsa",
+    "emulationXsa": "",
+    "emulationXsaPathInPlatform": "",
+    "isCustomFSBL": false,
+    "fsblPath": "",
+    "pmufwElf": "",
+    "flow": "EMBEDDED",
+    "processorsMap": {
+      "microblaze_0": "microblaze",
+      "psu_cortexa53_0": "psu_cortexa53",
+      "psu_cortexa53_1": "psu_cortexa53",
+      "psu_cortexa53_2": "psu_cortexa53",
+      "psu_cortexa53_3": "psu_cortexa53",
+      "psu_cortexr5_0": "psu_cortexr5",
+      "psu_cortexr5_1": "psu_cortexr5",
+      "psu_pmu_0": "psu_pmu"
+    },
+    "supportedFamily": "zynquplus",
+    "componentType": "PLATFORM",
+    "domains": [
+      {
+        "name": "zynqmp_fsbl",
+        "displayName": "zynqmp_fsbl",
+        "processor": "psu_cortexa53_0",
+        "cpuType": "cortex-a53",
+        "cpuInstance": "psu_cortexa53_0",
+        "os": "standalone",
+        "appTemplate": "zynqmp_fsbl",
+        "isBootDomain": true,
+        "qemuData": "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/resources/zynqmp_fsbl/qemu",
+        "qemuArgsFile": "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/resources/zynqmp_fsbl/qemu/qemu_args.txt",
+        "pmcQemuArgsFile": "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/resources/zynqmp_fsbl/qemu/pmu_args.txt",
+        "isBSPGenReq": false
+      },
+      {
+        "name": "freertos_psu_cortexr5_0",
+        "displayName": "freertos_psu_cortexr5_0",
+        "processor": "psu_cortexr5_0",
+        "cpuType": "cortex-r5",
+        "cpuInstance": "psu_cortexr5_0",
+        "os": "freertos",
+        "appTemplate": "empty_application",
+        "isBootDomain": false,
+        "qemuData": "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/resources/freertos_psu_cortexr5_0/qemu",
+        "qemuArgsFile": "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/resources/freertos_psu_cortexr5_0/qemu/qemu_args.txt",
+        "pmcQemuArgsFile": "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/resources/freertos_psu_cortexr5_0/qemu/pmu_args.txt",
+        "isBSPGenReq": false
+      }
+    ],
+    "emptyToolchainConfiguration": []
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdsproject="http://www.xilinx.com/sdsproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="app_echo_uart_mb_0_system" platform="/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitisclassic/pf_kr260_amp_uart_mb_0/export/pf_kr260_amp_uart_mb_0/pf_kr260_amp_uart_mb_0.xpfm" platformUID="xilinx:kr260_som_som240_1_connector_kr260_carrier_som240_1_connector_som240_2_connector_kr260_carrier_som240_2_connector::0.0(custom)" sysConfig="pf_kr260_amp_uart_mb_0" runtime="C/C++" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.1686768323">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="app_echo_uart_mb_0" domainName="freertos10_xilinx_domain" domainPrettyName="freertos10_xilinx on microblaze_0" appBuildConfig="Debug"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.1390953688">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="app_echo_uart_mb_0" domainName="freertos10_xilinx_domain" domainPrettyName="freertos10_xilinx on microblaze_0" appBuildConfig="Release"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

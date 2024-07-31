@@ -1,0 +1,15 @@
+{
+  "name": "app_echo_uart_r5_0",
+  "type": "HOST",
+  "platform": "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/export/pf_amp_uart_r5_0/pf_amp_uart_r5_0.xpfm",
+  "domain": "freertos_psu_cortexr5_0",
+  "cpuInstance": "psu_cortexr5_0",
+  "cpuType": "cortex-r5",
+  "os": "freertos",
+  "configuration": {
+    "componentType": "HOST",
+    "hostToolchainConfigurations": []
+  },
+  "domainRealName": "freertos_psu_cortexr5_0",
+  "applicationFlow": "EMBEDDED"
+}

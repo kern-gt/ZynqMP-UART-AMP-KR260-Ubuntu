@@ -1,0 +1,223 @@
+/*
+    uart.c
+    author: sh-goto
+*/
+
+/* FreeRTOS */
+#include "FreeRTOS.h"
+#include "task.h"
+#include "stream_buffer.h"
+#include "portmacro.h"
+
+/* AMD */
+#include "xil_printf.h"
+#include "xparameters.h"
+#include "xuartlite.h"
+#include "xuartlite_l.h"
+#include "xintc.h"
+#include "xil_exception.h"
+
+/* App */
+#include <stdint.h>
+#include "user_def.h"
+#include "hardware_def.h"
+#include "led.h"
+#include "uart.h"
+
+/*
+    このコードはXilinx Baremetal driver(SDT対応なし)を使用しています。
+    Vitis Classic 環境でのみ使用できます。
+    SDT:System Device Tree
+    Vitis IDE:(v2023.1以前)または、Vitis Classic IDE(v2023.2以降)
+
+    This code uses the Xilinx Baremetal driver (no SDT support).
+    It can only be used in Vitis Classic environment.
+    SDT: System Device Tree
+    Vitis IDE (prior to v2023.1) or Vitis Classic IDE (v2023.2 or later)
+*/
+#ifdef SDT
+#error "This code uses the Xilinx Baremetal driver (no SDT support).\
+It can only be used in the Vitis Classic IDE environment."
+#endif
+
+static void UartSendTask( void *pvParameters );
+static void UartRecvTask( void *pvParameters );
+static void SendCBHandler(void *CallBackRef, unsigned int EventData);
+static void RecvCBHandler(void *CallBackRef, unsigned int EventData);
+
+static TaskHandle_t uart_send_task;
+static TaskHandle_t uart_recv_task;
+static XUartLite dev_uart;
+
+static uint8_t uart_tx_driver_buf[UART_TX_DRV_BUF_SIZE_BYTES];
+static unsigned int completed_tx_bytes_cnt = 0;
+static uint8_t uart_rx_driver_buf[UART_RX_DRV_BUF_SIZE_BYTES];
+
+eErr_t InitUart(void)
+{
+    int ret;
+
+    ret = XUartLite_Initialize(&dev_uart, UART_DEV_ID);
+    if(ret != XST_SUCCESS){
+        xil_printf( "Initialization of UARTLite failed.\n" );
+        return eFAILURE;
+    }
+
+    ret = XUartLite_SelfTest(&dev_uart);
+    if(ret != XST_SUCCESS){
+        xil_printf( "SelfTest of UARTLite failed.\n" );
+        return eFAILURE;
+    }else{
+        XUartLite_ResetFifos(&dev_uart);
+    }
+
+    ret = xPortInstallInterruptHandler(XPAR_INTC_0_UARTLITE_0_VEC_ID,
+                        (XInterruptHandler)XUartLite_InterruptHandler,
+                        &dev_uart);
+    if(ret != pdPASS){
+        xil_printf( "Setup AXI-INTC Intrrupt Handler failed.\n" );
+        return eFAILURE;
+    }
+
+    XUartLite_SetSendHandler(&dev_uart, SendCBHandler, &dev_uart);
+	XUartLite_SetRecvHandler(&dev_uart, RecvCBHandler, &dev_uart);
+
+    ret = xTaskCreate(  UartSendTask,
+				        ( const char * ) "UartTx",
+						(configMINIMAL_STACK_SIZE + 200),
+					    NULL,
+					    TSK_TSK_PRIORITY_UART_SEND,
+					    &uart_send_task );
+    if(ret != pdPASS){
+        xil_printf( "Create UARTSendTask of UARTLite failed.\n" );
+        return eFAILURE;
+    }
+
+    ret = xTaskCreate(  UartRecvTask,
+				        ( const char * ) "UartRx",
+						(configMINIMAL_STACK_SIZE + 200),
+					    NULL,
+					    TSK_TSK_PRIORITY_UART_RECV,
+					    &uart_recv_task );
+    if(ret != pdPASS){
+        xil_printf( "Create UARTRecvTask of UARTLite failed.\n" );
+        return eFAILURE;
+    }
+
+    vPortEnableInterrupt( XPAR_INTC_0_UARTLITE_0_VEC_ID );
+    XUartLite_EnableInterrupt(&dev_uart);
+
+    return eSUCCESS;
+}
+
+
+static void UartSendTask( void *pvParameters )
+{
+    size_t get_bytes_cnt = 0;
+
+    memset(uart_tx_driver_buf, 0x00, sizeof(uart_tx_driver_buf));
+    completed_tx_bytes_cnt = 0;
+
+    xil_printf( "Info: Run Uart Send Task.\n" );
+
+    for (;;)
+    {
+        get_bytes_cnt = xStreamBufferReceive(uart_send_buf,
+                                            (void*)uart_tx_driver_buf,
+                                            (UART_TX_DRV_BUF_SIZE_BYTES),
+                                            50/ portTICK_PERIOD_MS);
+
+        if(get_bytes_cnt != 0)
+        {
+            XUartLite_Send(&dev_uart, uart_tx_driver_buf, get_bytes_cnt);
+        
+            while(completed_tx_bytes_cnt != (UBaseType_t)get_bytes_cnt)
+            {
+                ulTaskNotifyTake( pdTRUE, portMAX_DELAY );
+            }
+            completed_tx_bytes_cnt = 0;
+        }
+    }
+}
+
+
+static void SendCBHandler(void *CallBackRef, unsigned int EventData)
+{
+    BaseType_t xHigherPriorityTaskWoken = pdFALSE;
+    XUartLite* device = CallBackRef;
+
+    if(device->RegBaseAddress == dev_uart.RegBaseAddress)
+    {
+        completed_tx_bytes_cnt = EventData;
+        vTaskNotifyGiveFromISR(uart_send_task, &xHigherPriorityTaskWoken);
+    }
+    portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
+}
+
+
+static void UartRecvTask( void *pvParameters )
+{
+    size_t get_bytes_cnt = 0;
+    const unsigned int req_recv_data_bytes = 1;
+    size_t tx_bytes_cnt = 0;
+
+    memset(uart_rx_driver_buf, 0x00, sizeof(uart_rx_driver_buf));
+
+    xil_printf( "Info: Run Uart Recv Task.\n" );
+
+    for(;;)
+    {
+        get_bytes_cnt = xStreamBufferReceive(uart_recv_buf,
+                                            uart_rx_driver_buf,
+                                            sizeof(uart_rx_driver_buf),
+                                            10/ portTICK_PERIOD_MS);
+
+        tx_bytes_cnt = xStreamBufferSend(   app_input_buf,
+                                            uart_rx_driver_buf,
+                                            get_bytes_cnt,
+                                            50/ portTICK_PERIOD_MS);
+        if(tx_bytes_cnt != get_bytes_cnt)
+        {
+            xil_printf("xapp_input_buf filled.\n");
+        }
+    }
+}
+
+
+
+static void RecvCBHandler(void *CallBackRef, unsigned int EventData)
+{
+    BaseType_t xHigherPriorityTaskWoken = pdFALSE;
+    XUartLite* device = CallBackRef;
+    uint8_t rx_buf;
+    uint32_t state;
+    size_t data_size;
+
+    if(device->RegBaseAddress == dev_uart.RegBaseAddress)
+    {
+        while(XUartLite_IsReceiveEmpty(device->RegBaseAddress) == FALSE)
+        {
+            state = XUartLite_GetStatusReg(device->RegBaseAddress);
+            state = state & XUL_SR_RX_FIFO_FULL;
+            if(state == XUL_SR_RX_FIFO_FULL)
+            {
+                LedOn();
+                //xil_printf("UARTLite RX Hardware buffer full.\n");
+            }
+
+            rx_buf = XUartLite_ReadReg(device->RegBaseAddress, XUL_RX_FIFO_OFFSET);
+
+            data_size = xStreamBufferSendFromISR(uart_recv_buf,
+                                                &rx_buf,
+                                                sizeof(rx_buf),
+                                                &xHigherPriorityTaskWoken);
+            if(data_size == 0)
+            {
+                //LedOn();
+                xil_printf("uart_recv_buf filled.\n");
+            }
+        }
+        portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
+    }
+}
+

@@ -1,0 +1,3 @@
+/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/build/CMakeFiles/fsbl.elf.dir
+/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/build/CMakeFiles/edit_cache.dir
+/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/build/CMakeFiles/rebuild_cache.dir
