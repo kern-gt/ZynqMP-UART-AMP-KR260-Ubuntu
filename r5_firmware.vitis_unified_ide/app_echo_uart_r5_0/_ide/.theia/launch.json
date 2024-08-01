@@ -23,7 +23,7 @@
 				"enableRPUSplitMode": true,
 				"resetAPU": false,
 				"resetRPU": false,
-				"bitstreamFile": "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/kr260_amp_uart_release.runs/impl_1/design_1_wrapper.bin",
+				"bitstreamFile": "${workspaceFolder}/app_echo_uart_r5_0/_ide/bitstream/design_1_wrapper.bit",
 				"zuInitialization": {
 					"isFsbl": true,
 					"usingFSBL": {
