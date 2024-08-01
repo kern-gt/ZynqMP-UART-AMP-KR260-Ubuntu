@@ -66,10 +66,72 @@ Run the following script on ZynqMP.
 $ pwd
 /home/ubuntu/linux_echo_test_app
 $ sudo bash . /setup_fpga_remoteproc/setup_fpga_remoteproc_ubuntu.sh
+
+Create FPGA APP /lib/firmware/xilinx/uart_amp
+
+Stop CR5-0 and CR5-1.
+setup_fpga_remoteproc/setup_fpga_remoteproc_ubuntu.sh: line 22: echo: write error: Invalid argument
+  Stop CR5-0 Failed
+setup_fpga_remoteproc/setup_fpga_remoteproc_ubuntu.sh: line 28: echo: write error: Invalid argument
+  Stop CR5-1 Failed
+
+Start FPGA Configuration.
+  FPGA unload OK
+  FPGA Configuration OK
+
+Load ELF for CR5-0 and CR5-1.
+  CR5-0 load OK
+  CR5-1 load OK
+
+Run CR5-0 and CR5-1.
+  CR5-0 start OK
+  CR5-1 start OK
 ```
 
 PL (FPGA) is configured and SFP_LED1 starts blinking irregularly. Also, UF1_LED and UF2_LED start blinking irregularly because two cores of CR5 are activated.
+<br><br>
+**When PL (FPGA) fails to configure**  
+This is a countermeasure for the following phenomenon.
+```
+$ sudo bash ./setup_fpga_remoteproc/setup_fpga_remoteproc_ubuntu.sh
+Create FPGA APP /lib/firmware/xilinx/uart_amp
 
+Stop CR5-0 and CR5-1.
+setup_fpga_remoteproc/setup_fpga_remoteproc_ubuntu.sh: line 22: echo: write error: Invalid argument
+  Stop CR5-0 Failed
+setup_fpga_remoteproc/setup_fpga_remoteproc_ubuntu.sh: line 28: echo: write error: Invalid argument
+  Stop CR5-1 Failed
+
+Start FPGA Configuration.
+  Err! : FPGA unload Failed
+  Err! : FPGA Configuration Failed
+```
+The CMA memory allocator area size is too large and may have failed. Default is 1000 MiB.
+```
+$ sudo dmesg | grep cma
+[    0.000000] cma: Failed to reserve 1000 MiB
+```
+For Xilinx certified Ubuntu, you can set bootargs in the following file.
+```
+/etc/default/flash-kernel
+```
+Rewrite it as follows: reduce CMA to 768 MiB.
+```
+$ cat /etc/default/flash-kernel
+LINUX_KERNEL_CMDLINE="cma=768M"
+LINUX_KERNEL_CMDLINE_DEFAULTS=""
+```
+Update Flash.
+```
+$ sudo flash-kernel
+```
+Reboot and check dmesg.
+```
+$ sudo reboot
+$ sudo dmesg | grep cma
+[    0.000000] cma: Reserved 768 MiB at 0x0000000045c00000
+```
+<br><br>
 ### 4. Python environment setup
 Once the sub-cores are up and running, prepare to run the test application on the Linux side.
 You will need the pyserial package. Also, since we will be creating a virtual environment with venv, you will need to make sure that you have the correct version of venv for your Python version.
@@ -78,6 +140,8 @@ $ python -V
 $ python -V
 Python 3.10.12
 
+$ sudo apt install python3.10-venv  
+  
 $ python3 -m venv uart-amp
 $ source . /uart-amp/bin/activate
 (uart-amp)$ python -m pip install -r requirements.txt

@@ -66,16 +66,82 @@ ZynqMP上で以下のスクリプトを実行します.
 $ pwd
 /home/ubuntu/linux_echo_test_app
 $ sudo bash ./setup_fpga_remoteproc/setup_fpga_remoteproc_ubuntu.sh
+
+Create FPGA APP /lib/firmware/xilinx/uart_amp
+
+Stop CR5-0 and CR5-1.
+setup_fpga_remoteproc/setup_fpga_remoteproc_ubuntu.sh: line 22: echo: write error: Invalid argument
+  Stop CR5-0 Failed
+setup_fpga_remoteproc/setup_fpga_remoteproc_ubuntu.sh: line 28: echo: write error: Invalid argument
+  Stop CR5-1 Failed
+
+Start FPGA Configuration.
+  FPGA unload OK
+  FPGA Configuration OK
+
+Load ELF for CR5-0 and CR5-1.
+  CR5-0 load OK
+  CR5-1 load OK
+
+Run CR5-0 and CR5-1.
+  CR5-0 start OK
+  CR5-1 start OK
 ```
 
-PL(FPGA)がコンフィグレーションされ、SFP_LED1が不規則点滅を始めます.また、CR5の2コアが起動するため、UF1_LEDとUF2_LEDが不規則点滅を初めます.
-  
+PL(FPGA)がコンフィグレーションされ、SFP_LED1が不規則点滅を始めます.また、CR5の2コアが起動するため、UF1_LEDとUF2_LEDが不規則点滅を始めます.
+<br><br>
+**PL(FPGA)がコンフィグレーションが失敗する場合**  
+以下のような現象が起こった場合の対策です。
+```
+$ sudo bash ./setup_fpga_remoteproc/setup_fpga_remoteproc_ubuntu.sh
+Create FPGA APP /lib/firmware/xilinx/uart_amp
+
+Stop CR5-0 and CR5-1.
+setup_fpga_remoteproc/setup_fpga_remoteproc_ubuntu.sh: line 22: echo: write error: Invalid argument
+  Stop CR5-0 Failed
+setup_fpga_remoteproc/setup_fpga_remoteproc_ubuntu.sh: line 28: echo: write error: Invalid argument
+  Stop CR5-1 Failed
+
+Start FPGA Configuration.
+  Err! : FPGA unload Failed
+  Err! : FPGA Configuration Failed
+```
+
+CMAメモリアロケータの領域サイズが大きすぎて失敗している可能性があります。デフォルトは1000MiBです。
+```
+$ sudo dmesg | grep cma
+[    0.000000] cma: Failed to reserve 1000 MiB
+```
+対策としてCMAの確保領域のサイズを小さくします。Xilinx認定Ubuntuの場合は以下のファイルでbootargsを設定できます。
+```
+/etc/default/flash-kernel
+```
+以下のように書き換えます。CMAを768MiBに減らします。
+```
+$ cat /etc/default/flash-kernel
+LINUX_KERNEL_CMDLINE="cma=768M"
+LINUX_KERNEL_CMDLINE_DEFAULTS=""
+```
+Flashを更新します。
+```
+$ sudo flash-kernel
+```
+
+再起動してdmesgを確認します。
+```
+$ sudo reboot
+$ sudo dmesg | grep cma
+[    0.000000] cma: Reserved 768 MiB at 0x0000000045c00000
+```
+<br><br>
 ### 4. Python環境のセットアップ
 サブコアが起動できたら、Linux側のテストアプリを動かすための準備を行います.
 pyserialパッケージが必要です.また、venvで仮想環境を作成するため、あらかじめ、Python Versionに合ったvenvを使えるようにする必要があります.
 ```
 $ python -V
 Python 3.10.12
+
+$ sudo apt install python3.10-venv
 
 $ python3 -m venv uart-amp
 $ source ./uart-amp/bin/activate
