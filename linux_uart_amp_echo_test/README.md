@@ -4,12 +4,12 @@
 
 ## Overview
 This test code sends the contents of test data (test_data.txt) from ZynqMP CA53 (Linux) to UART and verifies if the data looped back from the subcore is correct.  
-**Environment**
+**Environment**  
 * KR260 board
 * Xilinx certified Ubuntu 22.04
 
 
-**Contents of linux_uart_amp_echo_test folder**
+**Contents of linux_uart_amp_echo_test folder**  
 This folder contains the following items.
 * uart_amp_echo_test.py : Python implementation of echo back test code to run on CA53(linux)
 * test_data.txt : Defines test data used in the echo test.
@@ -22,7 +22,7 @@ This folder contains the following items.
 
 ## Getting Started
 How to run an echo back test.  
-**Procedures**
+**Procedures**  
 1. copy the program to ZynqMP
 1. install Devicetree for OpenAMP
 1. Setup UART-AMP

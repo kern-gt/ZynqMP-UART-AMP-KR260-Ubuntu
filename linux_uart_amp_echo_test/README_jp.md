@@ -4,12 +4,12 @@
 
 ## 概要
 このテストコードはZynqMPのCA53(Linux)からテストデータ(test_data.txt)の内容をUARTに送信し、サブコアからループバックしてきたデータが正しいかどうかを検証します.  
-**環境**
+**環境**  
 * KR260ボード
 * Xilinx認定Ubuntu22.04
 
 
-**linux_uart_amp_echo_testフォルダの内容**
+**linux_uart_amp_echo_testフォルダの内容**  
 本フォルダには以下のものが含まれています.
 * uart_amp_echo_test.py : CA53(linux)で動作させるPython実装のエコーバックテストコード
 * test_data.txt : エコーテストで使用するテストデータを定義
@@ -22,7 +22,7 @@
 
 ## Getting Started
 エコーバックテストの動かし方を紹介します.  
-**手順**
+**手順**  
 1. ZynqMPにプログラムをコピー
 1. OpenAMP用のDevicetreeのインストール
 1. UART-AMPのセットアップ
