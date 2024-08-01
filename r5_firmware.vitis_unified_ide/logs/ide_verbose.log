@@ -25705,3 +25705,851 @@ onDebugAdapterExit session: 'a280ddd2-6a53-4bb7-b412-833d4dbe5654'
 2024-08-02 04:08:50 [debug] : Closing channel on service path '/services/report-model'. 
 2024-08-02 04:08:50 [debug] : Closing channel on service path '/services/keytar'. 
 2024-08-02 04:08:50 [debug] : [hosted-plugin: 118817] TextEditor is disposed! 
+2024-08-02 04:36:53 [debug] : Notification event posted from server - ON_DID_UPDATE_WORKSPACE. 
+2024-08-02 04:36:53 [debug] : --------------------------------------------------------------------------------- 
+2024-08-02 04:36:53 [debug] : /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide 
+2024-08-02 04:36:53 [debug] : --------------------------------------------------------------------------------- 
+2024-08-02 04:36:53 [debug] : [Logger] Previous user logs are stored in the file - /home/kerngt/.Xilinx/Vitis/2024.1/logs/ide.log 
+2024-08-02 04:36:53 [debug] : [Logger] Previous debug logs are stored in the file - /home/kerngt/.Xilinx/Vitis/2024.1/logs/ide_verbose.log 
+2024-08-02 04:36:53 [debug] : [Logger] All the internal problems will be logged at debug level. 
+2024-08-02 04:36:53 [debug] : RIGEL SERVER 04:36:53 INFO  : updated workspace path: /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide 
+2024-08-02 04:36:53 [debug] : Notification event posted from server - ON_DID_OPEN_COMPONENT. 
+2024-08-02 04:36:53 [debug] : Notification event posted from server - ON_DID_OPEN_COMPONENT. 
+2024-08-02 04:36:53 [debug] : Notification event posted from server - ON_DID_OPEN_COMPONENT. 
+2024-08-02 04:36:53 [debug] : Notification event posted from server - ON_DID_OPEN_COMPONENT. 
+2024-08-02 04:36:53 [debug] : Notification event posted from server - ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2024-08-02 04:36:53 [debug] : Notification event posted from server - ON_DID_OPEN_COMPONENT. 
+2024-08-02 04:36:53 [debug] : Notification event posted from server - ON_DID_OPEN_COMPONENT. 
+2024-08-02 04:36:53 [debug] : Notification event posted from server - ON_DID_OPEN_COMPONENT. 
+2024-08-02 04:36:53 [debug] : Notification event posted from server - ON_DID_OPEN_COMPONENT. 
+2024-08-02 04:36:53 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2024-08-02 04:36:53 [debug] : [Application Examples Provider]  updating the embedded templates on workspace event. 
+2024-08-02 04:36:53 [debug] : [Application Examples Provider] refresh requested. 
+2024-08-02 04:36:53 [debug] : Received event from notification service: ON_DID_UPDATE_WORKSPACE. 
+2024-08-02 04:36:53 [debug] : [Logger Client] log levelchanged to  {"0":"Info"}
+2024-08-02 04:36:53 [debug] : [Logger UI]  Update Log Level  called 
+2024-08-02 04:36:53 [debug] : [Application Examples Provider] common calling method requested. 
+2024-08-02 04:36:53 [debug] : [Application Examples Provider] Repositories model update requested. 
+2024-08-02 04:36:53 [debug] : [Application Examples Provider] Repositories model update completed. 
+2024-08-02 04:36:53 [debug] : [Application Examples Provider] Templates model update requested. 
+2024-08-02 04:36:53 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2024-08-02 04:36:53 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2024-08-02 04:36:53 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 2,
+        "startColumn": 47,
+        "endLineNumber": 2,
+        "endColumn": 52
+      },
+      "rangeLength": 5,
+      "text": "false",
+      "rangeOffset": 48,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\n",
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:36:53 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:36:53 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:36:53 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:36:53 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:36:53 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:36:53 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:36:53 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:36:53 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2024-08-02 04:36:53 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2024-08-02 04:36:53 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2024-08-02 04:36:53 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2024-08-02 04:36:53 [debug] : Received event from notification service: ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2024-08-02 04:36:53 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2024-08-02 04:36:53 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2024-08-02 04:36:53 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2024-08-02 04:36:53 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2024-08-02 04:36:53 [debug] : [ProjectCache] fetching projects for project-cache 
+2024-08-02 04:36:54 [debug] : Opening channel for service path '/services/project-utils'. 
+2024-08-02 04:36:54 [debug] : Opening channel for service path '/services/bootgen'. 
+2024-08-02 04:36:54 [debug] : Opening channel for service path '/services/hls/report'. 
+2024-08-02 04:36:54 [debug] : Opening channel for service path '/services/hls/wave/open'. 
+2024-08-02 04:36:54 [debug] : Linked preference "workbench.colorCustomizations" not found. Source: "editor.bracketPairColorization.enabled" 
+2024-08-02 04:36:54 [debug] : Frontend m.configure took longer than the expected maximum 100 milliseconds: 1082.6 ms [Finished 7.294 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Application UI init preferences 
+2024-08-02 04:36:54 [debug] : [Bootgen Output] Adding listeners to bootgen service. 
+2024-08-02 04:36:54 [debug] : A command file.openWith.config-editor-widget is already registered. 
+2024-08-02 04:36:54 [debug] : Frontend commands.onStart: 58.9 ms [Finished 7.353 s after frontend start] 
+2024-08-02 04:36:54 [debug] : [Logger UI]  Update Log Level success {"0":{"success":true,"error":""}}
+2024-08-02 04:36:54 [debug] : [ProjectCache] Project location updated to /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/app_echo_uart_r5_0 
+2024-08-02 04:36:54 [debug] : Application UI init preferences 
+2024-08-02 04:36:54 [debug] : Frontend keybindings.onStart took longer than the expected maximum 100 milliseconds: 267.0 ms [Finished 7.620 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend menus.onStart: 22.1 ms [Finished 7.643 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Opening channel for service path '/services/search-in-workspace'. 
+2024-08-02 04:36:54 [debug] : Frontend c.onStart: 11.3 ms [Finished 7.654 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend d.onStart: 33.4 ms [Finished 7.688 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend d.onStart: 11.8 ms [Finished 7.700 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend J.onStart: 0.2 ms [Finished 7.701 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend l.onStart: 2.0 ms [Finished 7.703 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend u.onStart: 8.0 ms [Finished 7.712 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend n.onStart: 0.3 ms [Finished 7.713 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend u.onStart: 2.5 ms [Finished 7.715 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Skipping menu item with missing command: "plugin.view-container.test.toggle". 
+2024-08-02 04:36:54 [debug] : Frontend C.onStart: 50.6 ms [Finished 7.766 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend p.onStart: 0.5 ms [Finished 7.767 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend d.onStart: 0.7 ms [Finished 7.769 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend u.onStart: 1.5 ms [Finished 7.771 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend m.onStart: 1.0 ms [Finished 7.772 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend n.onStart: 3.0 ms [Finished 7.775 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend v.onStart: 0.2 ms [Finished 7.776 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend P.onStart: 0.4 ms [Finished 7.776 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend c.onStart: 0.3 ms [Finished 7.777 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend b.onStart: 0.1 ms [Finished 7.778 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend g.onStart: 0.7 ms [Finished 7.779 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend f.onStart: 0.4 ms [Finished 7.780 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend b.onStart: 0.5 ms [Finished 7.781 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend d.onStart: 0.4 ms [Finished 7.782 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend $.onStart: 3.2 ms [Finished 7.785 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend $.onStart: 0.4 ms [Finished 7.786 s after frontend start] 
+2024-08-02 04:36:54 [debug] : [hosted-plugin: 176141] IPC started 
+2024-08-02 04:36:54 [debug] : Frontend y.onStart: 0.3 ms [Finished 7.786 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend Object.onStart: 0.7 ms [Finished 7.787 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend w.onStart: 43.6 ms [Finished 7.831 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend d.onStart: 0.6 ms [Finished 7.832 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend l.onStart: 1.4 ms [Finished 7.834 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend j.onStart: 0.2 ms [Finished 7.834 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend d.onStart: 0.4 ms [Finished 7.835 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend c.onStart: 0.2 ms [Finished 7.835 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend y.onStart: 0.2 ms [Finished 7.836 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend w.onStart: 0.2 ms [Finished 7.836 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend k.onStart: 0.4 ms [Finished 7.837 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend n.onStart: 0.2 ms [Finished 7.837 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Frontend c.onStart: 0.3 ms [Finished 7.838 s after frontend start] 
+2024-08-02 04:36:54 [debug] : [Feature Registry] Reading early access data from /tools/Xilinx/Vitis/2024.1/vitisng-server/scripts/early-access/early-access.json 
+2024-08-02 04:36:54 [debug] : [Feature Registry] Reading early access data from /tools/Xilinx/Vitis/2024.1/vitisng-server/scripts/early-access/early-access.json 
+2024-08-02 04:36:54 [debug] : [Feature Registry] Reading early access data from /tools/Xilinx/Vitis/2024.1/vitisng-server/scripts/early-access/early-access.json 
+2024-08-02 04:36:54 [debug] : [Feature Registry] Reading early access data from /tools/Xilinx/Vitis/2024.1/vitisng-server/scripts/early-access/early-access.json 
+2024-08-02 04:36:54 [debug] : [Feature Registry] Reading early access data from /tools/Xilinx/Vitis/2024.1/vitisng-server/scripts/early-access/early-access.json 
+2024-08-02 04:36:54 [debug] : [Feature Registry] Reading early access data from /tools/Xilinx/Vitis/2024.1/vitisng-server/scripts/early-access/early-access.json 
+2024-08-02 04:36:54 [debug] : Frontend m.onStart: 0.2 ms [Finished 7.838 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Start frontend contributions: 2664.5 ms [Finished 7.838 s after frontend start] 
+2024-08-02 04:36:54 [debug] : Changed application state from 'init' to 'started_contributions'. 
+2024-08-02 04:36:55 [debug] : Changed application state from 'started_contributions' to 'attached_shell'. 
+2024-08-02 04:36:55 [debug] : >>> Restoring the layout state... 
+2024-08-02 04:36:55 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:36:55 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:36:55 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:36:55 [debug] : Skipping menu item with missing command: "plugin.view-container.test.toggle". 
+2024-08-02 04:36:55 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61] Waiting for backend deployment: 295.2 ms [Finished 8.083 s after frontend start] 
+2024-08-02 04:36:55 [debug] : [hosted-plugin: 176141] PLUGIN_HOST(176141) starting instance 
+2024-08-02 04:36:55 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:36:55 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:36:56 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61] Sync of 20 plugins: 856.9 ms [Finished 8.940 s after frontend start] 
+2024-08-02 04:36:56 [debug] : Opening channel for service path '/services/report-model'. 
+2024-08-02 04:36:56 [debug] : Couldn't restore widget state for debug-console. Error: TypeError: Cannot read properties of undefined (reading 'getControl')  
+2024-08-02 04:36:56 [debug] : f.registerSchemas is taking more than 500.0 ms, new schemas are ignored. 
+2024-08-02 04:36:56 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 350,
+        "startColumn": 1,
+        "endLineNumber": 350,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "04:36:53 INFO  : updated workspace path: /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide\n",
+      "rangeOffset": 61432,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\n",
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:36:56 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:36:56 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:36:56 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:36:56 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:36:56 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:36:56 [debug] : TypeError: Cannot read properties of undefined (reading 'path')
+    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:16675839
+    at Array.find (<anonymous>)
+    at w.getKnownProject (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:16675782)
+    at n.getAddButtonListItems (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:15918021)
+    at n.render (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:15918407)
+    at n.onUpdateRequest (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2506689)
+    at n.e.processMessage (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:1772950)
+    at d (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:1609025)
+    at t (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:1608001)
+    at h (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:1609196) 
+2024-08-02 04:36:56 [debug] : RIGEL SERVER 04:36:56 INFO  : Successfully created repository data at /tmp/rigel_lopper_kerngt13806208376906752229 
+2024-08-02 04:36:56 [debug] : RIGEL SERVER 04:36:56 INFO  : bash, -c, source /tools/Xilinx/Vitis/2024.1/tps/lnx64/lopper-1.1.0/env/bin/activate && python /tools/Xilinx/Vitis/2024.1/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_kerngt1533351174277426949 -r /tmp/rigel_lopper_kerngt13806208376906752229/.repo.yaml && deactivate 
+2024-08-02 04:36:56 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:36:56 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:36:56 [debug] : MonacoEditorModel.doSync - enter {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:36:56 [debug] : MonacoEditorModel.doSync - exit - cancelled {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:36:57 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:36:57 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:36:57 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:36:57 [debug] : RIGEL SERVER 04:36:57 INFO  : Embedded Template List generated successfully 
+2024-08-02 04:36:57 [debug] : RIGEL SERVER 04:36:57 INFO  : bash, -c, source /tools/Xilinx/Vitis/2024.1/tps/lnx64/lopper-1.1.0/env/bin/activate && python /tools/Xilinx/Vitis/2024.1/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_kerngt13655376573411575179 -r /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/.wsdata/.repo.yaml && deactivate 
+2024-08-02 04:36:57 [debug] : <<< The layout has been successfully restored. 
+2024-08-02 04:36:58 [debug] : RIGEL SERVER 04:36:58 INFO  : Embedded Template List generated successfully 
+2024-08-02 04:36:58 [debug] : Initialize the workbench layout: 2752.3 ms [Finished 10.667 s after frontend start] 
+2024-08-02 04:36:58 [debug] : Changed application state from 'attached_shell' to 'initialized_layout'. 
+2024-08-02 04:36:58 [debug] : Frontend I.onDidInitializeLayout: 12.9 ms [Finished 10.683 s after frontend start] 
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin ms-vscode.cmake-tools contributed to touchBar {"0":{"command":"cmake.quickStart","group":"CMake:start","when":"cmake:enableTouchBar && !cmake:enableFullFeatureSet"},"1":"Error: Could not find submenu with id touchBar\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin ms-vscode.cmake-tools contributed to touchBar {"0":{"command":"cmake.configure","group":"CMake:build","when":"cmake:enableTouchBar.configure && !cmake:isBuilding && !cmake:isConfiguring"},"1":"Error: Could not find submenu with id touchBar\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin ms-vscode.cmake-tools contributed to touchBar {"0":{"command":"cmake.build","alt":"cmake.configure","group":"CMake:build","when":"cmake:enableTouchBar.build && cmake:enableFullFeatureSet && !cmake:isBuilding && !cmake:isConfiguring"},"1":"Error: Could not find submenu with id touchBar\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin ms-vscode.cmake-tools contributed to touchBar {"0":{"command":"cmake.stop","group":"CMake:build","when":"cmake:enableTouchBar.build && cmake:enableFullFeatureSet && cmake:isBuilding"},"1":"Error: Could not find submenu with id touchBar\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin ms-vscode.cmake-tools contributed to touchBar {"0":{"command":"cmake.debugTarget","alt":"cmake.selectLaunchTarget","group":"CMake:run","when":"cmake:enableTouchBar.debug && cmake:enableFullFeatureSet && !cmake:hideDebugCommand"},"1":"Error: Could not find submenu with id touchBar\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin ms-vscode.cmake-tools contributed to touchBar {"0":{"command":"cmake.launchTarget","group":"CMake:run","when":"cmake:enableTouchBar.launch && cmake:enableFullFeatureSet && !cmake:hideLaunchCommand"},"1":"Error: Could not find submenu with id touchBar\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][ms-vscode.cmake-tools]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][ms-vscode.cpptools-themes]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][plorefice.devicetree]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to editor/context/copy {"0":{"command":"gitlens.copyRemoteFileUrlToClipboard","group":"1_gitlens@1","when":"editorTextFocus && gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id editor/context/copy\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to editor/context/copy {"0":{"command":"gitlens.copyRemoteFileUrlFrom","group":"1_gitlens@2","when":"editorTextFocus && gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id editor/context/copy\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to editor/context/copy {"0":{"command":"gitlens.copyRemoteCommitUrl","group":"1_gitlens@3","when":"editorTextFocus && gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id editor/context/copy\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to editor/context/copy {"0":{"command":"gitlens.copyShaToClipboard","group":"2_gitlens@1","when":"editorTextFocus && gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id editor/context/copy\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to editor/context/copy {"0":{"command":"gitlens.copyMessageToClipboard","group":"2_gitlens@2","when":"editorTextFocus && gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id editor/context/copy\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to extension/context {"0":{"command":"gitlens.showWelcomePage","group":"9_gitlens@1","when":"extension =~ /^eamodio.gitlens(-insiders)?$/ && extensionStatus == installed"},"1":"Error: Could not find submenu with id extension/context\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to extension/context {"0":{"command":"gitlens.showSettingsPage","group":"9_gitlens@2","when":"extension =~ /^eamodio.gitlens(-insiders)?$/ && extensionStatus == installed"},"1":"Error: Could not find submenu with id extension/context\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to git.commit {"0":{"command":"gitlens.addAuthors","group":"4_gitlens@1","when":"gitlens:enabled && !gitlens:readonly && config.gitlens.menus.scm.authors"},"1":"Error: Could not find submenu with id git.commit\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to menuBar/edit/copy {"0":{"command":"gitlens.copyRemoteFileUrlToClipboard","group":"1_gitlens@1","when":"gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id menuBar/edit/copy\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin eamodio.gitlens contributed to menuBar/edit/copy {"0":{"command":"gitlens.copyRemoteFileUrlFrom","group":"1_gitlens@2","when":"gitlens:activeFileStatus =~ /blameable/ && config.gitlens.menus.editor.clipboard"},"1":"Error: Could not find submenu with id menuBar/edit/copy\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][eamodio.gitlens]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][eclipse-cdt.serial-monitor]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin amd.tcf-debug contributed to editor/title/run {"0":{"command":"extension.tcf-debug.debugEditorContents","group":"navigation@2","when":"resourceLangId == cpp || resourceLangId == c"},"1":"Error: Could not find submenu with id editor/title/run\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][amd.tcf-debug]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : Preference name collision detected in the schema for property: cmake.cmakePath 
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][twxs.cmake]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][amd.vitis-config]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][amd.vitis-hls-l1-library]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][amd.vitis-hls-pragma]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][vscode.cpp]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][vscode.github]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][vscode.github-authentication]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][vscode.json]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : Preference name collision detected in the schema for property: [json] 
+2024-08-02 04:36:58 [debug] : Preference name collision detected in the schema for property: [jsonc] 
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][vscode.json-language-features]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][llvm-vs-code-extensions.vscode-clangd]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][pkief.material-icon-theme]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][webfreak.debug]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin vscode.git contributed to scm/sourceControl {"0":{"command":"git.close","group":"navigation","when":"scmProvider == git"},"1":"Error: Could not find submenu with id scm/sourceControl\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin vscode.git contributed to scm/change/title {"0":{"command":"git.stageChange","when":"config.git.enabled && !git.missing && originalResourceScheme == git"},"1":"Error: Could not find submenu with id scm/change/title\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : Failed to register a menu item for plugin vscode.git contributed to scm/change/title {"0":{"command":"git.revertChange","when":"config.git.enabled && !git.missing && originalResourceScheme == git"},"1":"Error: Could not find submenu with id scm/change/title\n    at d.getMenuNode (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2587357)\n    at v.handle (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7458306)\n    at file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477312\n    at o (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7474973)\n    at E.handleContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7477267)\n    at U.loadContributions (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7304600)\n    at U.doLoad (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7302692)\n    at async d.withProgress (file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:2627430)\n    at async file:///tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/lib/bundle.js:2:7300035"}
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][vscode.git]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][vscode.make]: Loaded contributions. 
+2024-08-02 04:36:58 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61] Load contributions of 20 plugins: 951.0 ms [Finished 11.635 s after frontend start] 
+2024-08-02 04:36:58 [debug] : Frontend w.onDidInitializeLayout: 1.1 ms [Finished 11.638 s after frontend start] 
+2024-08-02 04:36:59 [debug] : Frontend h.onDidInitializeLayout: 1.6 ms [Finished 11.734 s after frontend start] 
+2024-08-02 04:36:59 [debug] : Frontend j.onDidInitializeLayout: 3.5 ms [Finished 11.745 s after frontend start] 
+2024-08-02 04:36:59 [debug] : Frontend A.onDidInitializeLayout: 95.7 ms [Finished 11.910 s after frontend start] 
+2024-08-02 04:36:59 [debug] : Frontend f.onDidInitializeLayout: 4.9 ms [Finished 11.916 s after frontend start] 
+2024-08-02 04:36:59 [debug] : Theia configuration directory file:///home/kerngt/.Xilinx/Vitis/2024.1/.vitisng' 
+2024-08-02 04:36:59 [debug] : Theia configuration directory file:///home/kerngt/.Xilinx/Vitis/2024.1/.vitisng' 
+2024-08-02 04:36:59 [debug] : Theia configuration directory file:///home/kerngt/.Xilinx/Vitis/2024.1/.vitisng' 
+2024-08-02 04:36:59 [debug] : Theia configuration directory file:///home/kerngt/.Xilinx/Vitis/2024.1/.vitisng' 
+2024-08-02 04:36:59 [debug] : 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope 
+2024-08-02 04:36:59 [debug] : a registered grammar configuration for 'cpp' language is overridden 
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 3,
+        "startColumn": 29,
+        "endLineNumber": 3,
+        "endColumn": 37
+      },
+      "rangeLength": 8,
+      "text": "\"custom\"",
+      "rangeOffset": 83,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\n",
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:37:00 [debug] : [Application Examples Provider] Templates model update completed. 
+2024-08-02 04:37:00 [debug] : [Application Examples Provider] common calling method completed. 
+2024-08-02 04:37:00 [debug] : [Application Examples Provider] refresh completed. 
+2024-08-02 04:37:00 [debug] : [Application Examples Provider] Templates model update completed. 
+2024-08-02 04:37:00 [debug] : [Application Examples Provider] common calling method completed. 
+2024-08-02 04:37:00 [debug] : [Application Examples Provider] refresh completed. 
+2024-08-02 04:37:00 [debug] : [Debugger Server] In 'List target connections' with connection:[object Object] request:{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}} 
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:00 [debug] : RIGEL SERVER 04:37:00 INFO  : Found no platform with name 'pf_amp_uart_r5_0' in install repositories 
+2024-08-02 04:37:00 [debug] : Frontend application start: 7548.0 ms [Finished 66.187 s after backend start] 
+2024-08-02 04:37:00 [debug] : Replace loading indicator with ready workbench UI (animation): 1248.7 ms [Finished 13.183 s after frontend start] 
+2024-08-02 04:37:00 [debug] : Changed application state from 'initialized_layout' to 'ready'. 
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:00 [debug] : [Debugger Server] In 'getCrossTriggerDefinition' with connection:[object Object] request:{"wrappers_":null,"arrayIndexOffset_":-1,"array":["zynq_mp"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}} 
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.doSync - exit - cancelled {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.doSync - exit - cancelled {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.doSync - exit - cancelled {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:00 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:00 [debug] : Opening channel for service path '/services/keytar'. 
+2024-08-02 04:37:00 [debug] : Theia configuration directory file:///home/kerngt/.Xilinx/Vitis/2024.1/.vitisng' 
+2024-08-02 04:37:00 [debug] : getTasks(): about to return task information for 0 tasks 
+2024-08-02 04:37:00 [debug] : Theia configuration directory file:///home/kerngt/.Xilinx/Vitis/2024.1/.vitisng' 
+2024-08-02 04:37:00 [debug] : Theia configuration directory file:///home/kerngt/.Xilinx/Vitis/2024.1/.vitisng' 
+2024-08-02 04:37:00 [debug] : Theia configuration directory file:///home/kerngt/.Xilinx/Vitis/2024.1/.vitisng' 
+2024-08-02 04:37:01 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:01 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:01 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:01 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:01 [debug] : MonacoEditorModel.doSync - exit - cancelled {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:01 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:01 [debug] : [hosted-plugin: 176141] PLUGIN_HOST(176141): PluginManagerExtImpl/init()
+PLUGIN_HOST(176141): initializing(cmake-tools@1.9.2 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(176141): initializing(cpptools-themes@1.0.0 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(176141): initializing(devicetree@0.1.1 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(176141): initializing(gitlens@11.7.0 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(176141): initializing(serial-monitor@1.0.2 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(176141): initializing(tcf-debug@0.0.1 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+Debugger contribution has been registered: tcf-debug
+PLUGIN_HOST(176141): initializing(cmake@0.0.17 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(176141): initializing(vitis-config@0.0.1 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(176141): initializing(vitis-hls-l1-library@0.0.1 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(176141): initializing(vitis-hls-pragma@0.6.0 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(176141): initializing(cpp@1.52.1 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(176141): initializing(github@1.62.3 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(176141): initializing(github-authentication@1.62.3 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(176141): initializing(json@1.52.1 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(176141): initializing(json-language-features@1.52.1 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(176141): initializing(vscode-clangd@0.1.15 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(176141): initializing(material-icon-theme@4.11.0 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(176141): initializing(debug@0.26.1 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+Debugger contribution has been registered: gdb
+Debugger contribution has been registered: lldb-mi
+Debugger contribution has been registered: mago-mi
+PLUGIN_HOST(176141): initializing(git@1.62.3 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init)
+PLUGIN_HOST(176141): initializing(make@1.79.0 with /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/@theia/plugin-ext-vscode/lib/node/plugin-vscode-init) 
+2024-08-02 04:37:01 [debug] : [hosted-plugin: 176141] Unsupported activation events: oncommand:gitlens.copyCurrentBranch, please open an issue: https://github.com/eclipse-theia/theia/issues/new 
+2024-08-02 04:37:01 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 351,
+        "startColumn": 1,
+        "endLineNumber": 351,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "04:36:56 INFO  : Successfully created repository data at /tmp/rigel_lopper_kerngt13806208376906752229\n04:36:56 INFO  : bash, -c, source /tools/Xilinx/Vitis/2024.1/tps/lnx64/lopper-1.1.0/env/bin/activate && python /tools/Xilinx/Vitis/2024.1/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_kerngt1533351174277426949 -r /tmp/rigel_lopper_kerngt13806208376906752229/.repo.yaml && deactivate\n04:36:57 INFO  : Embedded Template List generated successfully\n04:36:57 INFO  : bash, -c, source /tools/Xilinx/Vitis/2024.1/tps/lnx64/lopper-1.1.0/env/bin/activate && python /tools/Xilinx/Vitis/2024.1/data/embeddedsw/scripts/pyesw//get_template_data.py -d /tmp/rigel_lopper_kerngt13655376573411575179 -r /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/.wsdata/.repo.yaml && deactivate\n04:36:58 INFO  : Embedded Template List generated successfully\n04:37:00 INFO  : Found no platform with name 'pf_amp_uart_r5_0' in install repositories\n",
+      "rangeOffset": 61607,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\n",
+  "versionId": 3,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:01 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:01 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:01 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:01 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:01 [debug] : [hosted-plugin: 176141] PLUGIN_HOST(176141): PluginManagerExtImpl/loadPlugin(/tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/plugins/vscode.git/extension/dist/main) 
+2024-08-02 04:37:01 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:37:01 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2024-08-02 04:37:01 [debug] : [hosted-plugin: 176141] PLUGIN_HOST(176141): PluginManagerExtImpl/loadPlugin(/tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/plugins/vscode-builtin-github/extension/dist/extension.js) 
+2024-08-02 04:37:02 [debug] : [hosted-plugin: 176141] PLUGIN_HOST(176141): PluginManagerExtImpl/loadPlugin(/tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/node/jsonClientMain) 
+2024-08-02 04:37:02 [debug] : [hosted-plugin: 176141] PLUGIN_HOST(176141): PluginManagerExtImpl/loadPlugin(/tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/plugins/vscode-clangd/extension/out/src/extension) 
+2024-08-02 04:37:02 [debug] : [hosted-plugin: 176141] Could not identify plugin for 'Theia' require call from /tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/node_modules/vscode-languageclient/lib/node/main.js 
+2024-08-02 04:37:02 [debug] : [hosted-plugin: 176141] PLUGIN_HOST(176141): PluginManagerExtImpl/loadPlugin(/tmp/kerngt-vscode-unpacked/vitis-hls-pragma-0.6.0.vsix/extension/out/extension.js) 
+2024-08-02 04:37:02 [debug] : [hosted-plugin: 176141] Starting extension "vitis-hls-pragma"! 
+2024-08-02 04:37:02 [debug] : [hosted-plugin: 176141] PLUGIN_HOST(176141): PluginManagerExtImpl/loadPlugin(/tmp/kerngt-vscode-unpacked/vitis-hls-l1-library-0.0.1.vsix/extension/lib/extension.js) 
+2024-08-02 04:37:02 [debug] : [hosted-plugin: 176141] Clang Language Server is now active! 
+2024-08-02 04:37:03 [debug] : command 'clangd.typeHierarchy' already registered 
+2024-08-02 04:37:03 [debug] : data provider for 'clangd.typeHierarchyView' view is already registered 
+2024-08-02 04:37:03 [debug] : data provider for 'clangd.ast' view is already registered 
+2024-08-02 04:37:03 [debug] : command 'clangd.ast' already registered 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][ms-vscode.cmake-tools]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][ms-vscode.cpptools-themes]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][plorefice.devicetree]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][eamodio.gitlens]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][eclipse-cdt.serial-monitor]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][amd.tcf-debug]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][twxs.cmake]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][amd.vitis-config]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][amd.vitis-hls-l1-library]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][amd.vitis-hls-pragma]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][vscode.cpp]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][vscode.github]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][vscode.github-authentication]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][vscode.json]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][vscode.json-language-features]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][llvm-vs-code-extensions.vscode-clangd]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][pkief.material-icon-theme]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][webfreak.debug]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][vscode.git]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61][vscode.make]: Started plugin. 
+2024-08-02 04:37:03 [debug] : [hosted-plugin: 176141] PLUGIN_HOST(176141): PluginManagerExtImpl/loadPlugin(/tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/plugins/vscode-material-icon-theme/extension/dist/extension) 
+2024-08-02 04:37:03 [debug] : [hosted-plugin: 176141] PLUGIN_HOST(176141): PluginManagerExtImpl/loadPlugin(/tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/plugins/eclipse-cdt.serial-monitor/extension/dist/desktop/extension.js) 
+2024-08-02 04:37:03 [debug] : [hosted-plugin: 176141] PLUGIN_HOST(176141): PluginManagerExtImpl/loadPlugin(/tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/plugins/eamodio-gitlens/extension/dist/gitlens) 
+2024-08-02 04:37:04 [debug] : [hosted-plugin: 176141] PLUGIN_HOST(176141): PluginManagerExtImpl/loadPlugin(/home/kerngt/.Xilinx/Vitis/2024.1/.vitisng/extensions/ms-vscode.cmake-tools-1.9.2/extension/dist/main) 
+2024-08-02 04:37:04 [debug] : command 'gitlens.clearFileAnnotations' already registered 
+2024-08-02 04:37:04 [debug] : command 'gitlens.computingFileAnnotations' already registered 
+2024-08-02 04:37:04 [debug] : [04bcaac8-d5b5-4255-af48-c91955f4ef61] Start of 20 plugins: 5418.1 ms [Finished 17.444 s after frontend start] 
+2024-08-02 04:37:04 [debug] : [hosted-plugin: 176141] [CMakeTools] 2024-08-01T19:37:04.664Z [debug] [main] Safe constructing new CMakeTools instance 
+2024-08-02 04:37:04 [debug] : [hosted-plugin: 176141] [CMakeTools] 2024-08-01T19:37:04.665Z [debug] [variant] Constructing VariantManager 
+2024-08-02 04:37:04 [debug] : [hosted-plugin: 176141] [CMakeTools] 2024-08-01T19:37:04.667Z [debug] [main] Constructing new CMakeTools instance 
+2024-08-02 04:37:04 [debug] : [hosted-plugin: 176141] [CMakeTools] 2024-08-01T19:37:04.667Z [debug] [main] Starting CMakeTools second-phase init 
+2024-08-02 04:37:04 [debug] : [hosted-plugin: 176141] PLUGIN_HOST(176141): PluginManagerExtImpl/loadPlugin(/tools/Xilinx/Vitis/2024.1/ide/electron-app/lnx64/resources/app/plugins/vscode-builtin-github-authentication/extension/dist/extension.js) 
+2024-08-02 04:37:04 [debug] : An authentication provider with id 'github' was registered. 
+2024-08-02 04:37:04 [debug] : [hosted-plugin: 176141] [CMakeTools] 2024-08-01T19:37:04.876Z [info] [variant] Loaded new set of variants 
+2024-08-02 04:37:04 [debug] : [hosted-plugin: 176141] [CMakeTools] 2024-08-01T19:37:04.878Z [debug] [main] CMakeTools instance initialization complete. 
+2024-08-02 04:37:04 [debug] : [hosted-plugin: 176141] [CMakeTools] 2024-08-01T19:37:04.883Z [debug] [kit] Reading kits file /home/kerngt/.local/share/CMakeTools/cmake-tools-kits.json 
+2024-08-02 04:37:04 [debug] : [hosted-plugin: 176141] [CMakeTools] 2024-08-01T19:37:04.961Z [info] [kit] Successfully loaded 13 kits from /home/kerngt/.local/share/CMakeTools/cmake-tools-kits.json 
+2024-08-02 04:37:05 [debug] : [hosted-plugin: 176141] [CMakeTools] 2024-08-01T19:37:05.000Z [debug] [kit] Not reading non-existent kits file: /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/.vscode/cmake-kits.json 
+2024-08-02 04:37:05 [debug] : Theia configuration directory file:///home/kerngt/.Xilinx/Vitis/2024.1/.vitisng' 
+2024-08-02 04:37:05 [debug] : Theia configuration directory file:///home/kerngt/.Xilinx/Vitis/2024.1/.vitisng' 
+2024-08-02 04:37:12 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2024-08-02 04:37:12 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2024-08-02 04:37:12 [debug] : [ProjectDecorator] tree decoration updated 
+2024-08-02 04:37:12 [debug] : [ProjectCache] Project location updated to /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/app_echo_uart_r5_0 
+2024-08-02 04:37:12 [debug] : RIGEL SERVER 04:37:12 INFO  : Found no platform with name 'pf_amp_uart_r5_0' in install repositories 
+2024-08-02 04:37:13 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:13 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:13 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 357,
+        "startColumn": 1,
+        "endLineNumber": 357,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "04:37:12 INFO  : Found no platform with name 'pf_amp_uart_r5_0' in install repositories\n",
+      "rangeOffset": 62641,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\n",
+  "versionId": 4,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:13 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:13 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:13 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:13 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:13 [debug] : RIGEL SERVER 04:37:13 INFO  : Found no platform with name 'pf_amp_uart_r5_0' in install repositories 
+2024-08-02 04:37:13 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:13 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:13 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 358,
+        "startColumn": 1,
+        "endLineNumber": 358,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "04:37:13 INFO  : Found no platform with name 'pf_amp_uart_r5_0' in install repositories\n",
+      "rangeOffset": 62729,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\n",
+  "versionId": 5,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:13 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:13 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:13 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:13 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:14 [debug] : [ProjectDecorator] tree decoration updated 
+2024-08-02 04:37:14 [debug] : [ProjectCache] Project location updated to /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/app_echo_uart_r5_0 
+2024-08-02 04:37:14 [debug] : RIGEL SERVER 04:37:14 INFO  : Found no platform with name 'pf_amp_uart_r5_0' in install repositories 
+2024-08-02 04:37:14 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:14 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:14 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:14 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/app_echo_uart_r5_1/src/main.c"}
+2024-08-02 04:37:14 [debug] : MonacoEditorModel.cancelSave {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/app_echo_uart_r5_1/src/main.c"}
+2024-08-02 04:37:14 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:14 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:14 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 359,
+        "startColumn": 1,
+        "endLineNumber": 359,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "04:37:14 INFO  : Found no platform with name 'pf_amp_uart_r5_0' in install repositories\n",
+      "rangeOffset": 62817,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\n",
+  "versionId": 6,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:14 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:14 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:14 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:14 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:18 [debug] : [Build Server] Executing method:build with connection:(object). {"0":"request:","1":{"appParentPath":"/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide","appName":"app_echo_uart_r5_0","buildCfg":"","componentName":"","type":0,"buildTarget":"clean","workDirPath":"","customCommand":"","containerName":"","serialBuild":true,"buildComps":false,"componentsToBuildList":[]}}
+2024-08-02 04:37:18 [debug] : [Build Server] Clean requested on 'app_echo_uart_r5_0::' with internal id '0952b817-8400-4ed8-ba74-94617c36df44'. 
+2024-08-02 04:37:18 [debug] : Notification event posted from server - ON_DID_BUILD_START. 
+2024-08-02 04:37:18 [debug] : Notification event posted from server - ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2024-08-02 04:37:18 [debug] : Received event from notification service: ON_DID_BUILD_START. 
+2024-08-02 04:37:18 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2024-08-02 04:37:18 [debug] : RIGEL SERVER 04:37:18 INFO  : Found no platform with name 'pf_amp_uart_r5_0' in install repositories 
+2024-08-02 04:37:18 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:18 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:18 [debug] : [Build Output] Clean for app_echo_uart_r5_0:: with id '0952b817-8400-4ed8-ba74-94617c36df44' started. 
+2024-08-02 04:37:18 [debug] : [Build Server] Clean completed on 'app_echo_uart_r5_0::' with internal id '0952b817-8400-4ed8-ba74-94617c36df44'. 
+2024-08-02 04:37:18 [debug] : [Build Server] Clean status event - label: app_echo_uart_r5_0::, status_code:0, status_details:. 
+2024-08-02 04:37:18 [debug] : [Build Server] Clean output steam finished on 'app_echo_uart_r5_0::' with internal id '0952b817-8400-4ed8-ba74-94617c36df44'. 
+2024-08-02 04:37:18 [info] : [Build Server] Clean output stream finished - app_echo_uart_r5_0::. 
+2024-08-02 04:37:18 [debug] : Notification event posted from server - ON_DID_BUILD_STOP. 
+2024-08-02 04:37:18 [debug] : Notification event posted from server - ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2024-08-02 04:37:18 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 360,
+        "startColumn": 1,
+        "endLineNumber": 360,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "04:37:18 INFO  : Found no platform with name 'pf_amp_uart_r5_0' in install repositories\n",
+      "rangeOffset": 62905,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\n",
+  "versionId": 7,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:18 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:18 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:18 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:18 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:18 [debug] : [Build Output] Clean for app_echo_uart_r5_0:: with id '0952b817-8400-4ed8-ba74-94617c36df44' completed. 
+2024-08-02 04:37:18 [debug] : [Build Output] Deleting and canceling the build task with id '0952b817-8400-4ed8-ba74-94617c36df44'. 
+2024-08-02 04:37:18 [debug] : Received event from notification service: ON_DID_BUILD_STOP. 
+2024-08-02 04:37:18 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2024-08-02 04:37:18 [debug] : RIGEL SERVER 04:37:18 INFO  : Found no platform with name 'pf_amp_uart_r5_0' in install repositories 
+2024-08-02 04:37:18 [debug] : RIGEL SERVER 04:37:18 INFO  : Found no platform with name 'pf_amp_uart_r5_0' in install repositories 
+2024-08-02 04:37:19 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:19 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:19 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 361,
+        "startColumn": 1,
+        "endLineNumber": 361,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "04:37:18 INFO  : Found no platform with name 'pf_amp_uart_r5_0' in install repositories\n04:37:18 INFO  : Found no platform with name 'pf_amp_uart_r5_0' in install repositories\n",
+      "rangeOffset": 62993,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\n",
+  "versionId": 8,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:19 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:19 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:19 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:19 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:22 [debug] : [ProjectDecorator] tree decoration updated 
+2024-08-02 04:37:22 [debug] : [ProjectCache] Project location updated to /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/app_echo_uart_r5_1 
+2024-08-02 04:37:22 [debug] : RIGEL SERVER 04:37:22 INFO  : Found no platform with name 'pf_amp_uart_r5_1' in install repositories 
+2024-08-02 04:37:22 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:22 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:22 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 363,
+        "startColumn": 1,
+        "endLineNumber": 363,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "04:37:22 INFO  : Found no platform with name 'pf_amp_uart_r5_1' in install repositories\n",
+      "rangeOffset": 63169,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\n",
+  "versionId": 9,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:22 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:22 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:22 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:22 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:24 [debug] : [Build Server] Executing method:build with connection:(object). {"0":"request:","1":{"appParentPath":"/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide","appName":"app_echo_uart_r5_1","buildCfg":"","componentName":"","type":0,"buildTarget":"clean","workDirPath":"","customCommand":"","containerName":"","serialBuild":true,"buildComps":false,"componentsToBuildList":[]}}
+2024-08-02 04:37:24 [debug] : [Build Server] Clean requested on 'app_echo_uart_r5_1::' with internal id 'b6f3b4f3-89be-4805-95c5-50600a5cb45a'. 
+2024-08-02 04:37:24 [debug] : Notification event posted from server - ON_DID_BUILD_START. 
+2024-08-02 04:37:24 [debug] : Received event from notification service: ON_DID_BUILD_START. 
+2024-08-02 04:37:24 [debug] : Notification event posted from server - ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2024-08-02 04:37:24 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2024-08-02 04:37:24 [debug] : RIGEL SERVER 04:37:24 INFO  : Found no platform with name 'pf_amp_uart_r5_1' in install repositories 
+2024-08-02 04:37:24 [debug] : [Build Output] Clean for app_echo_uart_r5_1:: with id 'b6f3b4f3-89be-4805-95c5-50600a5cb45a' started. 
+2024-08-02 04:37:24 [debug] : [Build Server] Clean completed on 'app_echo_uart_r5_1::' with internal id 'b6f3b4f3-89be-4805-95c5-50600a5cb45a'. 
+2024-08-02 04:37:24 [debug] : [Build Server] Clean status event - label: app_echo_uart_r5_1::, status_code:0, status_details:. 
+2024-08-02 04:37:24 [debug] : [Build Server] Clean output steam finished on 'app_echo_uart_r5_1::' with internal id 'b6f3b4f3-89be-4805-95c5-50600a5cb45a'. 
+2024-08-02 04:37:24 [info] : [Build Server] Clean output stream finished - app_echo_uart_r5_1::. 
+2024-08-02 04:37:24 [debug] : Notification event posted from server - ON_DID_BUILD_STOP. 
+2024-08-02 04:37:24 [debug] : Notification event posted from server - ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2024-08-02 04:37:24 [debug] : [Build Output] Clean for app_echo_uart_r5_1:: with id 'b6f3b4f3-89be-4805-95c5-50600a5cb45a' completed. 
+2024-08-02 04:37:24 [debug] : [Build Output] Deleting and canceling the build task with id 'b6f3b4f3-89be-4805-95c5-50600a5cb45a'. 
+2024-08-02 04:37:24 [debug] : Received event from notification service: ON_DID_BUILD_STOP. 
+2024-08-02 04:37:24 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2024-08-02 04:37:24 [debug] : RIGEL SERVER 04:37:24 INFO  : Found no platform with name 'pf_amp_uart_r5_1' in install repositories
+04:37:24 INFO  : Found no platform with name 'pf_amp_uart_r5_1' in install repositories 
+2024-08-02 04:37:24 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:24 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:24 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 364,
+        "startColumn": 1,
+        "endLineNumber": 364,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "04:37:24 INFO  : Found no platform with name 'pf_amp_uart_r5_1' in install repositories\n04:37:24 INFO  : Found no platform with name 'pf_amp_uart_r5_1' in install repositories\n04:37:24 INFO  : Found no platform with name 'pf_amp_uart_r5_1' in install repositories\n",
+      "rangeOffset": 63257,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\n",
+  "versionId": 10,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:24 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:24 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:24 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:24 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:26 [debug] : [ProjectDecorator] tree decoration updated 
+2024-08-02 04:37:26 [debug] : [ProjectCache] Project location updated to /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0 
+2024-08-02 04:37:27 [debug] : [Platform Server] Executing method:[cleanPlatform] with connection:(object). {"0":"request:","1":"/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0"}
+2024-08-02 04:37:27 [debug] : [Platform Server] Clean platform requested for pf_amp_uart_r5_0 with internal id '20b08371-30a4-4f8e-8bc5-722532aff5ad'. 
+2024-08-02 04:37:27 [debug] : Notification event posted from server - ON_DID_BUILD_START. 
+2024-08-02 04:37:27 [debug] : Notification event posted from server - ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2024-08-02 04:37:27 [debug] : RIGEL SERVER 04:37:27 INFO  : clean Platform executed successfully for pf_amp_uart_r5_0 
+2024-08-02 04:37:27 [debug] : Notification event posted from server - ON_DID_BUILD_STOP. 
+2024-08-02 04:37:27 [debug] : Notification event posted from server - ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2024-08-02 04:37:27 [debug] : [Platform Server] Clean platform completed on 'pf_amp_uart_r5_0' with internal id '20b08371-30a4-4f8e-8bc5-722532aff5ad'. 
+2024-08-02 04:37:27 [debug] : [Platform Server] Clean platform status event - label: pf_amp_uart_r5_0, status_code:0, status_details:. 
+2024-08-02 04:37:27 [debug] : [Platform Server] Clean platform output steam finished on 'pf_amp_uart_r5_0' with internal id '20b08371-30a4-4f8e-8bc5-722532aff5ad'. 
+2024-08-02 04:37:27 [info] : [Platform Server] Clean platform output stream finished - pf_amp_uart_r5_0. 
+2024-08-02 04:37:27 [debug] : Received event from notification service: ON_DID_BUILD_START. 
+2024-08-02 04:37:27 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2024-08-02 04:37:27 [debug] : [ProjectCache] fetching projects for project-cache 
+2024-08-02 04:37:27 [debug] : Received event from notification service: ON_DID_BUILD_STOP. 
+2024-08-02 04:37:27 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2024-08-02 04:37:27 [debug] : [Platform Output] Clean pf_amp_uart_r5_0 platform with id '20b08371-30a4-4f8e-8bc5-722532aff5ad' started. 
+2024-08-02 04:37:27 [debug] : [Platform Output] Clean pf_amp_uart_r5_0 platform with id '20b08371-30a4-4f8e-8bc5-722532aff5ad' completed. 
+2024-08-02 04:37:27 [debug] : [Platform Output] Deleting and canceling the build task with id '20b08371-30a4-4f8e-8bc5-722532aff5ad'. 
+2024-08-02 04:37:27 [debug] : [ProjectDecorator] tree decoration updated 
+2024-08-02 04:37:27 [debug] : [ProjectDecorator] tree decoration updated 
+2024-08-02 04:37:27 [debug] : [ProjectCache] Project location updated to /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0 
+2024-08-02 04:37:27 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:27 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:28 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 367,
+        "startColumn": 1,
+        "endLineNumber": 367,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "04:37:27 INFO  : clean Platform executed successfully for pf_amp_uart_r5_0\n",
+      "rangeOffset": 63521,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\n",
+  "versionId": 11,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:28 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:28 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:28 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:28 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:28 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2024-08-02 04:37:30 [debug] : [ProjectDecorator] tree decoration updated 
+2024-08-02 04:37:30 [debug] : [ProjectCache] Project location updated to /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1 
+2024-08-02 04:37:32 [debug] : [Platform Server] Executing method:[cleanPlatform] with connection:(object). {"0":"request:","1":"/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1"}
+2024-08-02 04:37:32 [debug] : [Platform Server] Clean platform requested for pf_amp_uart_r5_1 with internal id '1d71d831-9b50-4034-b1e0-20a041ec9664'. 
+2024-08-02 04:37:32 [debug] : Notification event posted from server - ON_DID_BUILD_START. 
+2024-08-02 04:37:32 [debug] : Notification event posted from server - ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2024-08-02 04:37:32 [debug] : RIGEL SERVER 04:37:32 INFO  : clean Platform executed successfully for pf_amp_uart_r5_1 
+2024-08-02 04:37:32 [debug] : Notification event posted from server - ON_DID_BUILD_STOP. 
+2024-08-02 04:37:32 [debug] : Notification event posted from server - ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2024-08-02 04:37:32 [debug] : [Platform Server] Clean platform completed on 'pf_amp_uart_r5_1' with internal id '1d71d831-9b50-4034-b1e0-20a041ec9664'. 
+2024-08-02 04:37:32 [debug] : [Platform Server] Clean platform status event - label: pf_amp_uart_r5_1, status_code:0, status_details:. 
+2024-08-02 04:37:32 [debug] : [Platform Server] Clean platform output steam finished on 'pf_amp_uart_r5_1' with internal id '1d71d831-9b50-4034-b1e0-20a041ec9664'. 
+2024-08-02 04:37:32 [info] : [Platform Server] Clean platform output stream finished - pf_amp_uart_r5_1. 
+2024-08-02 04:37:32 [debug] : [ProjectCache] fetching projects for project-cache 
+2024-08-02 04:37:32 [debug] : Received event from notification service: ON_DID_BUILD_START. 
+2024-08-02 04:37:32 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2024-08-02 04:37:32 [debug] : Received event from notification service: ON_DID_BUILD_STOP. 
+2024-08-02 04:37:32 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2024-08-02 04:37:32 [debug] : [Platform Output] Clean pf_amp_uart_r5_1 platform with id '1d71d831-9b50-4034-b1e0-20a041ec9664' started. 
+2024-08-02 04:37:32 [debug] : [Platform Output] Clean pf_amp_uart_r5_1 platform with id '1d71d831-9b50-4034-b1e0-20a041ec9664' completed. 
+2024-08-02 04:37:32 [debug] : [Platform Output] Deleting and canceling the build task with id '1d71d831-9b50-4034-b1e0-20a041ec9664'. 
+2024-08-02 04:37:32 [debug] : [ProjectDecorator] tree decoration updated 
+2024-08-02 04:37:32 [debug] : [ProjectDecorator] tree decoration updated 
+2024-08-02 04:37:32 [debug] : [ProjectCache] Project location updated to /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1 
+2024-08-02 04:37:32 [debug] : MonacoEditorModel.cancelSync {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:32 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:32 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 368,
+        "startColumn": 1,
+        "endLineNumber": 368,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "04:37:32 INFO  : clean Platform executed successfully for pf_amp_uart_r5_1\n",
+      "rangeOffset": 63596,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\n",
+  "versionId": 12,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:32 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:32 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:32 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:32 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/logs/vitis.log"}
+2024-08-02 04:37:32 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2024-08-02 04:37:37 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2024-08-02 04:37:38 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2024-08-02 04:37:40 [debug] : Shutting down because of Close request. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/commands'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/keyboard'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/logger'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/messageService'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/startup-workspace'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/remote-filesystem'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/envs'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/workspace'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/stopwatch'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/application'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/i18n'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/hostedPlugin'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/project'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/rigel-workspace'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/component'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/debugger'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/debug'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/shell-terminal'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/task'. 
+2024-08-02 04:37:40 [debug] : a client has disconnected - removed from list: 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/quickPick'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/plugin-ext'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/plugin-paths'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/search'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/vsx-environment'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/request-service'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/server'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/feature-registry'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/repository'. 
+2024-08-02 04:37:40 [debug] : [Repository Server] Disposing objects in backend. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/rigel-utils'. 
+2024-08-02 04:37:40 [debug] : [Rigel Utils Server] Disposing objects in backend. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/program_flash'. 
+2024-08-02 04:37:40 [debug] : [Program Flash Server] Disposing objects in backend. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/build'. 
+2024-08-02 04:37:40 [debug] : [Build Server] Disposing objects in backend. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path 'services/rigel-backend-helper'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/aie'. 
+2024-08-02 04:37:40 [debug] : [AIE Server] Disposing objects in backend. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/analysis'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/notification'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/recent-summaries'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/platform'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/hls/l1library/service'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/elf-reader'. 
+2024-08-02 04:37:40 [debug] : [Elf Reader Server] Disposing objects in backend. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/rigel_explorer'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/linker-script'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/rigel-logger'. 
+2024-08-02 04:37:40 [debug] : [Logger Server] Disposing objects in backend. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/vitis-hls'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/device'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/vcxx'. 
+2024-08-02 04:37:40 [debug] : [Rigel Vcxx Server] Disposing objects in backend. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/hls/common/file/service'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/flow_navigator'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/hls/common/data/info'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/hls/dataflow/info'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/hls/directive'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/hls_flow'. 
+2024-08-02 04:37:40 [debug] : [Hls Flow Server] Disposing objects in backend. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/mini-browser-service'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/project-utils'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/bootgen'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/hls/report'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/hls/wave/open'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/search-in-workspace'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/report-model'. 
+2024-08-02 04:37:40 [debug] : Closing channel on service path '/services/keytar'. 
+2024-08-02 04:37:40 [debug] : [hosted-plugin: 176141] [CMakeTools] 2024-08-01T19:37:40.161Z [debug] [extension] Deactivate CMakeTools 
