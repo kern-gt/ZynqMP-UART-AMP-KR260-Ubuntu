@@ -1,2 +1,0 @@
-armr5-none-eabi-ar qc libuartlite.a CMakeFiles/uartlite.dir/xuartlite.c.obj CMakeFiles/uartlite.dir/xuartlite_g.c.obj CMakeFiles/uartlite.dir/xuartlite_intr.c.obj CMakeFiles/uartlite.dir/xuartlite_l.c.obj CMakeFiles/uartlite.dir/xuartlite_selftest.c.obj CMakeFiles/uartlite.dir/xuartlite_sinit.c.obj CMakeFiles/uartlite.dir/xuartlite_stats.c.obj
-/tools/Xilinx/Vitis/2024.1/gnu/armr5/lin/gcc-arm-none-eabi/bin/armr5-none-eabi-ranlib libuartlite.a

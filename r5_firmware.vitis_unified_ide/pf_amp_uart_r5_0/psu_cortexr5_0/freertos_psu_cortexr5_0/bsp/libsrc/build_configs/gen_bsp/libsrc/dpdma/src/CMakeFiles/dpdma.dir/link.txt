@@ -1,2 +1,0 @@
-armr5-none-eabi-ar qc libdpdma.a CMakeFiles/dpdma.dir/xdpdma.c.obj CMakeFiles/dpdma.dir/xdpdma_g.c.obj CMakeFiles/dpdma.dir/xdpdma_sinit.c.obj CMakeFiles/dpdma.dir/xdpdma_intr.c.obj
-/tools/Xilinx/Vitis/2024.1/gnu/armr5/lin/gcc-arm-none-eabi/bin/armr5-none-eabi-ranlib libdpdma.a

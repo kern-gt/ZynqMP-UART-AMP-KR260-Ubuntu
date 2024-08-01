@@ -1,2 +1,0 @@
-armr5-none-eabi-ar qc librtcpsu.a CMakeFiles/rtcpsu.dir/xrtcpsu_sinit.c.obj CMakeFiles/rtcpsu.dir/xrtcpsu_g.c.obj CMakeFiles/rtcpsu.dir/xrtcpsu_selftest.c.obj CMakeFiles/rtcpsu.dir/xrtcpsu.c.obj CMakeFiles/rtcpsu.dir/xrtcpsu_intr.c.obj
-/tools/Xilinx/Vitis/2024.1/gnu/armr5/lin/gcc-arm-none-eabi/bin/armr5-none-eabi-ranlib librtcpsu.a
