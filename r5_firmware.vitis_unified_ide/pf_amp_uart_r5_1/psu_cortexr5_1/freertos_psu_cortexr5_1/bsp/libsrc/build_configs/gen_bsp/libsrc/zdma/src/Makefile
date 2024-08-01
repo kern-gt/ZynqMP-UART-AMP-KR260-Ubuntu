@@ -60,10 +60,10 @@ RM = /tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp
+CMAKE_SOURCE_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp
+CMAKE_BINARY_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/CMakeFiles /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/libsrc/zdma/src//CMakeFiles/progress.marks
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/zdma/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/CMakeFiles 0
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/CMakeFiles /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/libsrc/zdma/src//CMakeFiles/progress.marks
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/zdma/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/zdma/src/clean
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/zdma/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -151,22 +151,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/zdma/src/preinstall
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/zdma/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/zdma/src/preinstall
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/zdma/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libsrc/zdma/src/CMakeFiles/zdma.dir/rule:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/zdma/src/CMakeFiles/zdma.dir/rule
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/zdma/src/CMakeFiles/zdma.dir/rule
 .PHONY : libsrc/zdma/src/CMakeFiles/zdma.dir/rule
 
 # Convenience name for target.
@@ -175,7 +175,7 @@ zdma: libsrc/zdma/src/CMakeFiles/zdma.dir/rule
 
 # fast build rule for target.
 zdma/fast:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/build
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/build
 .PHONY : zdma/fast
 
 xzdma.obj: xzdma.c.obj
@@ -183,7 +183,7 @@ xzdma.obj: xzdma.c.obj
 
 # target to build an object file
 xzdma.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma.c.obj
 .PHONY : xzdma.c.obj
 
 xzdma.i: xzdma.c.i
@@ -191,7 +191,7 @@ xzdma.i: xzdma.c.i
 
 # target to preprocess a source file
 xzdma.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma.c.i
 .PHONY : xzdma.c.i
 
 xzdma.s: xzdma.c.s
@@ -199,7 +199,7 @@ xzdma.s: xzdma.c.s
 
 # target to generate assembly for a file
 xzdma.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma.c.s
 .PHONY : xzdma.c.s
 
 xzdma_g.obj: xzdma_g.c.obj
@@ -207,7 +207,7 @@ xzdma_g.obj: xzdma_g.c.obj
 
 # target to build an object file
 xzdma_g.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_g.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_g.c.obj
 .PHONY : xzdma_g.c.obj
 
 xzdma_g.i: xzdma_g.c.i
@@ -215,7 +215,7 @@ xzdma_g.i: xzdma_g.c.i
 
 # target to preprocess a source file
 xzdma_g.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_g.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_g.c.i
 .PHONY : xzdma_g.c.i
 
 xzdma_g.s: xzdma_g.c.s
@@ -223,7 +223,7 @@ xzdma_g.s: xzdma_g.c.s
 
 # target to generate assembly for a file
 xzdma_g.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_g.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_g.c.s
 .PHONY : xzdma_g.c.s
 
 xzdma_intr.obj: xzdma_intr.c.obj
@@ -231,7 +231,7 @@ xzdma_intr.obj: xzdma_intr.c.obj
 
 # target to build an object file
 xzdma_intr.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_intr.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_intr.c.obj
 .PHONY : xzdma_intr.c.obj
 
 xzdma_intr.i: xzdma_intr.c.i
@@ -239,7 +239,7 @@ xzdma_intr.i: xzdma_intr.c.i
 
 # target to preprocess a source file
 xzdma_intr.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_intr.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_intr.c.i
 .PHONY : xzdma_intr.c.i
 
 xzdma_intr.s: xzdma_intr.c.s
@@ -247,7 +247,7 @@ xzdma_intr.s: xzdma_intr.c.s
 
 # target to generate assembly for a file
 xzdma_intr.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_intr.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_intr.c.s
 .PHONY : xzdma_intr.c.s
 
 xzdma_selftest.obj: xzdma_selftest.c.obj
@@ -255,7 +255,7 @@ xzdma_selftest.obj: xzdma_selftest.c.obj
 
 # target to build an object file
 xzdma_selftest.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_selftest.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_selftest.c.obj
 .PHONY : xzdma_selftest.c.obj
 
 xzdma_selftest.i: xzdma_selftest.c.i
@@ -263,7 +263,7 @@ xzdma_selftest.i: xzdma_selftest.c.i
 
 # target to preprocess a source file
 xzdma_selftest.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_selftest.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_selftest.c.i
 .PHONY : xzdma_selftest.c.i
 
 xzdma_selftest.s: xzdma_selftest.c.s
@@ -271,7 +271,7 @@ xzdma_selftest.s: xzdma_selftest.c.s
 
 # target to generate assembly for a file
 xzdma_selftest.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_selftest.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_selftest.c.s
 .PHONY : xzdma_selftest.c.s
 
 xzdma_sinit.obj: xzdma_sinit.c.obj
@@ -279,7 +279,7 @@ xzdma_sinit.obj: xzdma_sinit.c.obj
 
 # target to build an object file
 xzdma_sinit.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_sinit.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_sinit.c.obj
 .PHONY : xzdma_sinit.c.obj
 
 xzdma_sinit.i: xzdma_sinit.c.i
@@ -287,7 +287,7 @@ xzdma_sinit.i: xzdma_sinit.c.i
 
 # target to preprocess a source file
 xzdma_sinit.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_sinit.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_sinit.c.i
 .PHONY : xzdma_sinit.c.i
 
 xzdma_sinit.s: xzdma_sinit.c.s
@@ -295,7 +295,7 @@ xzdma_sinit.s: xzdma_sinit.c.s
 
 # target to generate assembly for a file
 xzdma_sinit.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_sinit.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/zdma/src/CMakeFiles/zdma.dir/build.make libsrc/zdma/src/CMakeFiles/zdma.dir/xzdma_sinit.c.s
 .PHONY : xzdma_sinit.c.s
 
 # Help Target
@@ -337,6 +337,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/freertos10_xilinx/src/Source
+# Install script for directory: /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/freertos10_xilinx/src/Source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/libsrc/freertos10_xilinx/src/Source/portable/cmake_install.cmake")
-  include("/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/libsrc/freertos10_xilinx/src/Source/include/cmake_install.cmake")
+  include("/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/libsrc/freertos10_xilinx/src/Source/portable/cmake_install.cmake")
+  include("/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/libsrc/freertos10_xilinx/src/Source/include/cmake_install.cmake")
 
 endif()
 

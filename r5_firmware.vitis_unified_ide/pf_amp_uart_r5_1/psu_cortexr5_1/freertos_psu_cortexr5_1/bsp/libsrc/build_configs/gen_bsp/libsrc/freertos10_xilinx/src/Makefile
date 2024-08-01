@@ -60,10 +60,10 @@ RM = /tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp
+CMAKE_SOURCE_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp
+CMAKE_BINARY_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/CMakeFiles /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/libsrc/freertos10_xilinx/src//CMakeFiles/progress.marks
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/freertos10_xilinx/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/CMakeFiles 0
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/CMakeFiles /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/libsrc/freertos10_xilinx/src//CMakeFiles/progress.marks
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/freertos10_xilinx/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/freertos10_xilinx/src/clean
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/freertos10_xilinx/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -151,22 +151,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/freertos10_xilinx/src/preinstall
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/freertos10_xilinx/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/freertos10_xilinx/src/preinstall
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/freertos10_xilinx/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/rule:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/rule
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/rule
 .PHONY : libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/rule
 
 # Convenience name for target.
@@ -175,7 +175,7 @@ freertos: libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/rule
 
 # fast build rule for target.
 freertos/fast:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build
 .PHONY : freertos/fast
 
 Source/croutine.obj: Source/croutine.c.obj
@@ -183,7 +183,7 @@ Source/croutine.obj: Source/croutine.c.obj
 
 # target to build an object file
 Source/croutine.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/croutine.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/croutine.c.obj
 .PHONY : Source/croutine.c.obj
 
 Source/croutine.i: Source/croutine.c.i
@@ -191,7 +191,7 @@ Source/croutine.i: Source/croutine.c.i
 
 # target to preprocess a source file
 Source/croutine.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/croutine.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/croutine.c.i
 .PHONY : Source/croutine.c.i
 
 Source/croutine.s: Source/croutine.c.s
@@ -199,7 +199,7 @@ Source/croutine.s: Source/croutine.c.s
 
 # target to generate assembly for a file
 Source/croutine.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/croutine.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/croutine.c.s
 .PHONY : Source/croutine.c.s
 
 Source/event_groups.obj: Source/event_groups.c.obj
@@ -207,7 +207,7 @@ Source/event_groups.obj: Source/event_groups.c.obj
 
 # target to build an object file
 Source/event_groups.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/event_groups.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/event_groups.c.obj
 .PHONY : Source/event_groups.c.obj
 
 Source/event_groups.i: Source/event_groups.c.i
@@ -215,7 +215,7 @@ Source/event_groups.i: Source/event_groups.c.i
 
 # target to preprocess a source file
 Source/event_groups.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/event_groups.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/event_groups.c.i
 .PHONY : Source/event_groups.c.i
 
 Source/event_groups.s: Source/event_groups.c.s
@@ -223,7 +223,7 @@ Source/event_groups.s: Source/event_groups.c.s
 
 # target to generate assembly for a file
 Source/event_groups.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/event_groups.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/event_groups.c.s
 .PHONY : Source/event_groups.c.s
 
 Source/list.obj: Source/list.c.obj
@@ -231,7 +231,7 @@ Source/list.obj: Source/list.c.obj
 
 # target to build an object file
 Source/list.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/list.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/list.c.obj
 .PHONY : Source/list.c.obj
 
 Source/list.i: Source/list.c.i
@@ -239,7 +239,7 @@ Source/list.i: Source/list.c.i
 
 # target to preprocess a source file
 Source/list.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/list.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/list.c.i
 .PHONY : Source/list.c.i
 
 Source/list.s: Source/list.c.s
@@ -247,7 +247,7 @@ Source/list.s: Source/list.c.s
 
 # target to generate assembly for a file
 Source/list.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/list.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/list.c.s
 .PHONY : Source/list.c.s
 
 Source/portable/GCC/ARM_CR5/port.obj: Source/portable/GCC/ARM_CR5/port.c.obj
@@ -255,7 +255,7 @@ Source/portable/GCC/ARM_CR5/port.obj: Source/portable/GCC/ARM_CR5/port.c.obj
 
 # target to build an object file
 Source/portable/GCC/ARM_CR5/port.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/GCC/ARM_CR5/port.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/GCC/ARM_CR5/port.c.obj
 .PHONY : Source/portable/GCC/ARM_CR5/port.c.obj
 
 Source/portable/GCC/ARM_CR5/port.i: Source/portable/GCC/ARM_CR5/port.c.i
@@ -263,7 +263,7 @@ Source/portable/GCC/ARM_CR5/port.i: Source/portable/GCC/ARM_CR5/port.c.i
 
 # target to preprocess a source file
 Source/portable/GCC/ARM_CR5/port.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/GCC/ARM_CR5/port.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/GCC/ARM_CR5/port.c.i
 .PHONY : Source/portable/GCC/ARM_CR5/port.c.i
 
 Source/portable/GCC/ARM_CR5/port.s: Source/portable/GCC/ARM_CR5/port.c.s
@@ -271,7 +271,7 @@ Source/portable/GCC/ARM_CR5/port.s: Source/portable/GCC/ARM_CR5/port.c.s
 
 # target to generate assembly for a file
 Source/portable/GCC/ARM_CR5/port.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/GCC/ARM_CR5/port.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/GCC/ARM_CR5/port.c.s
 .PHONY : Source/portable/GCC/ARM_CR5/port.c.s
 
 Source/portable/GCC/ARM_CR5/portASM.obj: Source/portable/GCC/ARM_CR5/portASM.S.obj
@@ -279,7 +279,7 @@ Source/portable/GCC/ARM_CR5/portASM.obj: Source/portable/GCC/ARM_CR5/portASM.S.o
 
 # target to build an object file
 Source/portable/GCC/ARM_CR5/portASM.S.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/GCC/ARM_CR5/portASM.S.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/GCC/ARM_CR5/portASM.S.obj
 .PHONY : Source/portable/GCC/ARM_CR5/portASM.S.obj
 
 Source/portable/GCC/ARM_CR5/portZynqUltrascale.obj: Source/portable/GCC/ARM_CR5/portZynqUltrascale.c.obj
@@ -287,7 +287,7 @@ Source/portable/GCC/ARM_CR5/portZynqUltrascale.obj: Source/portable/GCC/ARM_CR5/
 
 # target to build an object file
 Source/portable/GCC/ARM_CR5/portZynqUltrascale.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/GCC/ARM_CR5/portZynqUltrascale.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/GCC/ARM_CR5/portZynqUltrascale.c.obj
 .PHONY : Source/portable/GCC/ARM_CR5/portZynqUltrascale.c.obj
 
 Source/portable/GCC/ARM_CR5/portZynqUltrascale.i: Source/portable/GCC/ARM_CR5/portZynqUltrascale.c.i
@@ -295,7 +295,7 @@ Source/portable/GCC/ARM_CR5/portZynqUltrascale.i: Source/portable/GCC/ARM_CR5/po
 
 # target to preprocess a source file
 Source/portable/GCC/ARM_CR5/portZynqUltrascale.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/GCC/ARM_CR5/portZynqUltrascale.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/GCC/ARM_CR5/portZynqUltrascale.c.i
 .PHONY : Source/portable/GCC/ARM_CR5/portZynqUltrascale.c.i
 
 Source/portable/GCC/ARM_CR5/portZynqUltrascale.s: Source/portable/GCC/ARM_CR5/portZynqUltrascale.c.s
@@ -303,7 +303,7 @@ Source/portable/GCC/ARM_CR5/portZynqUltrascale.s: Source/portable/GCC/ARM_CR5/po
 
 # target to generate assembly for a file
 Source/portable/GCC/ARM_CR5/portZynqUltrascale.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/GCC/ARM_CR5/portZynqUltrascale.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/GCC/ARM_CR5/portZynqUltrascale.c.s
 .PHONY : Source/portable/GCC/ARM_CR5/portZynqUltrascale.c.s
 
 Source/portable/GCC/ARM_CR5/port_asm_vectors.obj: Source/portable/GCC/ARM_CR5/port_asm_vectors.S.obj
@@ -311,7 +311,7 @@ Source/portable/GCC/ARM_CR5/port_asm_vectors.obj: Source/portable/GCC/ARM_CR5/po
 
 # target to build an object file
 Source/portable/GCC/ARM_CR5/port_asm_vectors.S.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/GCC/ARM_CR5/port_asm_vectors.S.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/GCC/ARM_CR5/port_asm_vectors.S.obj
 .PHONY : Source/portable/GCC/ARM_CR5/port_asm_vectors.S.obj
 
 Source/portable/MemMang/heap_4.obj: Source/portable/MemMang/heap_4.c.obj
@@ -319,7 +319,7 @@ Source/portable/MemMang/heap_4.obj: Source/portable/MemMang/heap_4.c.obj
 
 # target to build an object file
 Source/portable/MemMang/heap_4.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/MemMang/heap_4.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/MemMang/heap_4.c.obj
 .PHONY : Source/portable/MemMang/heap_4.c.obj
 
 Source/portable/MemMang/heap_4.i: Source/portable/MemMang/heap_4.c.i
@@ -327,7 +327,7 @@ Source/portable/MemMang/heap_4.i: Source/portable/MemMang/heap_4.c.i
 
 # target to preprocess a source file
 Source/portable/MemMang/heap_4.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/MemMang/heap_4.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/MemMang/heap_4.c.i
 .PHONY : Source/portable/MemMang/heap_4.c.i
 
 Source/portable/MemMang/heap_4.s: Source/portable/MemMang/heap_4.c.s
@@ -335,7 +335,7 @@ Source/portable/MemMang/heap_4.s: Source/portable/MemMang/heap_4.c.s
 
 # target to generate assembly for a file
 Source/portable/MemMang/heap_4.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/MemMang/heap_4.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/portable/MemMang/heap_4.c.s
 .PHONY : Source/portable/MemMang/heap_4.c.s
 
 Source/queue.obj: Source/queue.c.obj
@@ -343,7 +343,7 @@ Source/queue.obj: Source/queue.c.obj
 
 # target to build an object file
 Source/queue.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/queue.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/queue.c.obj
 .PHONY : Source/queue.c.obj
 
 Source/queue.i: Source/queue.c.i
@@ -351,7 +351,7 @@ Source/queue.i: Source/queue.c.i
 
 # target to preprocess a source file
 Source/queue.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/queue.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/queue.c.i
 .PHONY : Source/queue.c.i
 
 Source/queue.s: Source/queue.c.s
@@ -359,7 +359,7 @@ Source/queue.s: Source/queue.c.s
 
 # target to generate assembly for a file
 Source/queue.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/queue.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/queue.c.s
 .PHONY : Source/queue.c.s
 
 Source/stream_buffer.obj: Source/stream_buffer.c.obj
@@ -367,7 +367,7 @@ Source/stream_buffer.obj: Source/stream_buffer.c.obj
 
 # target to build an object file
 Source/stream_buffer.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/stream_buffer.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/stream_buffer.c.obj
 .PHONY : Source/stream_buffer.c.obj
 
 Source/stream_buffer.i: Source/stream_buffer.c.i
@@ -375,7 +375,7 @@ Source/stream_buffer.i: Source/stream_buffer.c.i
 
 # target to preprocess a source file
 Source/stream_buffer.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/stream_buffer.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/stream_buffer.c.i
 .PHONY : Source/stream_buffer.c.i
 
 Source/stream_buffer.s: Source/stream_buffer.c.s
@@ -383,7 +383,7 @@ Source/stream_buffer.s: Source/stream_buffer.c.s
 
 # target to generate assembly for a file
 Source/stream_buffer.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/stream_buffer.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/stream_buffer.c.s
 .PHONY : Source/stream_buffer.c.s
 
 Source/tasks.obj: Source/tasks.c.obj
@@ -391,7 +391,7 @@ Source/tasks.obj: Source/tasks.c.obj
 
 # target to build an object file
 Source/tasks.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/tasks.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/tasks.c.obj
 .PHONY : Source/tasks.c.obj
 
 Source/tasks.i: Source/tasks.c.i
@@ -399,7 +399,7 @@ Source/tasks.i: Source/tasks.c.i
 
 # target to preprocess a source file
 Source/tasks.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/tasks.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/tasks.c.i
 .PHONY : Source/tasks.c.i
 
 Source/tasks.s: Source/tasks.c.s
@@ -407,7 +407,7 @@ Source/tasks.s: Source/tasks.c.s
 
 # target to generate assembly for a file
 Source/tasks.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/tasks.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/tasks.c.s
 .PHONY : Source/tasks.c.s
 
 Source/timers.obj: Source/timers.c.obj
@@ -415,7 +415,7 @@ Source/timers.obj: Source/timers.c.obj
 
 # target to build an object file
 Source/timers.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/timers.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/timers.c.obj
 .PHONY : Source/timers.c.obj
 
 Source/timers.i: Source/timers.c.i
@@ -423,7 +423,7 @@ Source/timers.i: Source/timers.c.i
 
 # target to preprocess a source file
 Source/timers.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/timers.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/timers.c.i
 .PHONY : Source/timers.c.i
 
 Source/timers.s: Source/timers.c.s
@@ -431,7 +431,7 @@ Source/timers.s: Source/timers.c.s
 
 # target to generate assembly for a file
 Source/timers.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/timers.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/build.make libsrc/freertos10_xilinx/src/CMakeFiles/freertos.dir/Source/timers.c.s
 .PHONY : Source/timers.c.s
 
 # Help Target
@@ -490,6 +490,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

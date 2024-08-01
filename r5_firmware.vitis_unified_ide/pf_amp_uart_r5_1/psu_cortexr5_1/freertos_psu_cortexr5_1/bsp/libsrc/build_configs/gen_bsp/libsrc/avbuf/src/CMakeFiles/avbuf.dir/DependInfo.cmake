@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/avbuf/src/xavbuf.c" "libsrc/avbuf/src/CMakeFiles/avbuf.dir/xavbuf.c.obj" "gcc" "libsrc/avbuf/src/CMakeFiles/avbuf.dir/xavbuf.c.obj.d"
-  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/avbuf/src/xavbuf_clk.c" "libsrc/avbuf/src/CMakeFiles/avbuf.dir/xavbuf_clk.c.obj" "gcc" "libsrc/avbuf/src/CMakeFiles/avbuf.dir/xavbuf_clk.c.obj.d"
-  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/avbuf/src/xavbuf_videoformats.c" "libsrc/avbuf/src/CMakeFiles/avbuf.dir/xavbuf_videoformats.c.obj" "gcc" "libsrc/avbuf/src/CMakeFiles/avbuf.dir/xavbuf_videoformats.c.obj.d"
+  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/avbuf/src/xavbuf.c" "libsrc/avbuf/src/CMakeFiles/avbuf.dir/xavbuf.c.obj" "gcc" "libsrc/avbuf/src/CMakeFiles/avbuf.dir/xavbuf.c.obj.d"
+  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/avbuf/src/xavbuf_clk.c" "libsrc/avbuf/src/CMakeFiles/avbuf.dir/xavbuf_clk.c.obj" "gcc" "libsrc/avbuf/src/CMakeFiles/avbuf.dir/xavbuf_clk.c.obj.d"
+  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/avbuf/src/xavbuf_videoformats.c" "libsrc/avbuf/src/CMakeFiles/avbuf.dir/xavbuf_videoformats.c.obj" "gcc" "libsrc/avbuf/src/CMakeFiles/avbuf.dir/xavbuf_videoformats.c.obj.d"
   )
 
 # Targets to which this target links.

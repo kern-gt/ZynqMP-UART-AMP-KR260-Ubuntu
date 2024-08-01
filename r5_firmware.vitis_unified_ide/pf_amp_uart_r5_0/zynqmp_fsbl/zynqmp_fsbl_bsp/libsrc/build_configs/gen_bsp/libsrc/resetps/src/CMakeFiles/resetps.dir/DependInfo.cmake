@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/resetps/src/xresetps.c" "libsrc/resetps/src/CMakeFiles/resetps.dir/xresetps.c.obj" "gcc" "libsrc/resetps/src/CMakeFiles/resetps.dir/xresetps.c.obj.d"
-  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/resetps/src/xresetps_g.c" "libsrc/resetps/src/CMakeFiles/resetps.dir/xresetps_g.c.obj" "gcc" "libsrc/resetps/src/CMakeFiles/resetps.dir/xresetps_g.c.obj.d"
-  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/resetps/src/xresetps_sinit.c" "libsrc/resetps/src/CMakeFiles/resetps.dir/xresetps_sinit.c.obj" "gcc" "libsrc/resetps/src/CMakeFiles/resetps.dir/xresetps_sinit.c.obj.d"
+  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/resetps/src/xresetps.c" "libsrc/resetps/src/CMakeFiles/resetps.dir/xresetps.c.obj" "gcc" "libsrc/resetps/src/CMakeFiles/resetps.dir/xresetps.c.obj.d"
+  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/resetps/src/xresetps_g.c" "libsrc/resetps/src/CMakeFiles/resetps.dir/xresetps_g.c.obj" "gcc" "libsrc/resetps/src/CMakeFiles/resetps.dir/xresetps_g.c.obj.d"
+  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/resetps/src/xresetps_sinit.c" "libsrc/resetps/src/CMakeFiles/resetps.dir/xresetps_sinit.c.obj" "gcc" "libsrc/resetps/src/CMakeFiles/resetps.dir/xresetps_sinit.c.obj.d"
   )
 
 # Targets to which this target links.

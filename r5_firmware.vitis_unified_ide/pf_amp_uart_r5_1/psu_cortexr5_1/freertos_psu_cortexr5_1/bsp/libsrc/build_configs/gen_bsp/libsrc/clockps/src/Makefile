@@ -60,10 +60,10 @@ RM = /tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp
+CMAKE_SOURCE_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp
+CMAKE_BINARY_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/CMakeFiles /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/libsrc/clockps/src//CMakeFiles/progress.marks
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/clockps/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/CMakeFiles 0
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/CMakeFiles /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/libsrc/clockps/src//CMakeFiles/progress.marks
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/clockps/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/clockps/src/clean
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/clockps/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -151,22 +151,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/clockps/src/preinstall
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/clockps/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/clockps/src/preinstall
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/clockps/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libsrc/clockps/src/CMakeFiles/clockps.dir/rule:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/clockps/src/CMakeFiles/clockps.dir/rule
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/clockps/src/CMakeFiles/clockps.dir/rule
 .PHONY : libsrc/clockps/src/CMakeFiles/clockps.dir/rule
 
 # Convenience name for target.
@@ -175,7 +175,7 @@ clockps: libsrc/clockps/src/CMakeFiles/clockps.dir/rule
 
 # fast build rule for target.
 clockps/fast:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/build
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/build
 .PHONY : clockps/fast
 
 xclockps.obj: xclockps.c.obj
@@ -183,7 +183,7 @@ xclockps.obj: xclockps.c.obj
 
 # target to build an object file
 xclockps.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps.c.obj
 .PHONY : xclockps.c.obj
 
 xclockps.i: xclockps.c.i
@@ -191,7 +191,7 @@ xclockps.i: xclockps.c.i
 
 # target to preprocess a source file
 xclockps.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps.c.i
 .PHONY : xclockps.c.i
 
 xclockps.s: xclockps.c.s
@@ -199,7 +199,7 @@ xclockps.s: xclockps.c.s
 
 # target to generate assembly for a file
 xclockps.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps.c.s
 .PHONY : xclockps.c.s
 
 xclockps_divider.obj: xclockps_divider.c.obj
@@ -207,7 +207,7 @@ xclockps_divider.obj: xclockps_divider.c.obj
 
 # target to build an object file
 xclockps_divider.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_divider.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_divider.c.obj
 .PHONY : xclockps_divider.c.obj
 
 xclockps_divider.i: xclockps_divider.c.i
@@ -215,7 +215,7 @@ xclockps_divider.i: xclockps_divider.c.i
 
 # target to preprocess a source file
 xclockps_divider.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_divider.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_divider.c.i
 .PHONY : xclockps_divider.c.i
 
 xclockps_divider.s: xclockps_divider.c.s
@@ -223,7 +223,7 @@ xclockps_divider.s: xclockps_divider.c.s
 
 # target to generate assembly for a file
 xclockps_divider.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_divider.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_divider.c.s
 .PHONY : xclockps_divider.c.s
 
 xclockps_fixedfactor.obj: xclockps_fixedfactor.c.obj
@@ -231,7 +231,7 @@ xclockps_fixedfactor.obj: xclockps_fixedfactor.c.obj
 
 # target to build an object file
 xclockps_fixedfactor.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_fixedfactor.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_fixedfactor.c.obj
 .PHONY : xclockps_fixedfactor.c.obj
 
 xclockps_fixedfactor.i: xclockps_fixedfactor.c.i
@@ -239,7 +239,7 @@ xclockps_fixedfactor.i: xclockps_fixedfactor.c.i
 
 # target to preprocess a source file
 xclockps_fixedfactor.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_fixedfactor.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_fixedfactor.c.i
 .PHONY : xclockps_fixedfactor.c.i
 
 xclockps_fixedfactor.s: xclockps_fixedfactor.c.s
@@ -247,7 +247,7 @@ xclockps_fixedfactor.s: xclockps_fixedfactor.c.s
 
 # target to generate assembly for a file
 xclockps_fixedfactor.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_fixedfactor.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_fixedfactor.c.s
 .PHONY : xclockps_fixedfactor.c.s
 
 xclockps_g.obj: xclockps_g.c.obj
@@ -255,7 +255,7 @@ xclockps_g.obj: xclockps_g.c.obj
 
 # target to build an object file
 xclockps_g.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_g.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_g.c.obj
 .PHONY : xclockps_g.c.obj
 
 xclockps_g.i: xclockps_g.c.i
@@ -263,7 +263,7 @@ xclockps_g.i: xclockps_g.c.i
 
 # target to preprocess a source file
 xclockps_g.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_g.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_g.c.i
 .PHONY : xclockps_g.c.i
 
 xclockps_g.s: xclockps_g.c.s
@@ -271,7 +271,7 @@ xclockps_g.s: xclockps_g.c.s
 
 # target to generate assembly for a file
 xclockps_g.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_g.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_g.c.s
 .PHONY : xclockps_g.c.s
 
 xclockps_gate.obj: xclockps_gate.c.obj
@@ -279,7 +279,7 @@ xclockps_gate.obj: xclockps_gate.c.obj
 
 # target to build an object file
 xclockps_gate.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_gate.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_gate.c.obj
 .PHONY : xclockps_gate.c.obj
 
 xclockps_gate.i: xclockps_gate.c.i
@@ -287,7 +287,7 @@ xclockps_gate.i: xclockps_gate.c.i
 
 # target to preprocess a source file
 xclockps_gate.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_gate.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_gate.c.i
 .PHONY : xclockps_gate.c.i
 
 xclockps_gate.s: xclockps_gate.c.s
@@ -295,7 +295,7 @@ xclockps_gate.s: xclockps_gate.c.s
 
 # target to generate assembly for a file
 xclockps_gate.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_gate.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_gate.c.s
 .PHONY : xclockps_gate.c.s
 
 xclockps_mux.obj: xclockps_mux.c.obj
@@ -303,7 +303,7 @@ xclockps_mux.obj: xclockps_mux.c.obj
 
 # target to build an object file
 xclockps_mux.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_mux.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_mux.c.obj
 .PHONY : xclockps_mux.c.obj
 
 xclockps_mux.i: xclockps_mux.c.i
@@ -311,7 +311,7 @@ xclockps_mux.i: xclockps_mux.c.i
 
 # target to preprocess a source file
 xclockps_mux.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_mux.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_mux.c.i
 .PHONY : xclockps_mux.c.i
 
 xclockps_mux.s: xclockps_mux.c.s
@@ -319,7 +319,7 @@ xclockps_mux.s: xclockps_mux.c.s
 
 # target to generate assembly for a file
 xclockps_mux.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_mux.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_mux.c.s
 .PHONY : xclockps_mux.c.s
 
 xclockps_pll.obj: xclockps_pll.c.obj
@@ -327,7 +327,7 @@ xclockps_pll.obj: xclockps_pll.c.obj
 
 # target to build an object file
 xclockps_pll.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_pll.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_pll.c.obj
 .PHONY : xclockps_pll.c.obj
 
 xclockps_pll.i: xclockps_pll.c.i
@@ -335,7 +335,7 @@ xclockps_pll.i: xclockps_pll.c.i
 
 # target to preprocess a source file
 xclockps_pll.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_pll.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_pll.c.i
 .PHONY : xclockps_pll.c.i
 
 xclockps_pll.s: xclockps_pll.c.s
@@ -343,7 +343,7 @@ xclockps_pll.s: xclockps_pll.c.s
 
 # target to generate assembly for a file
 xclockps_pll.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_pll.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_pll.c.s
 .PHONY : xclockps_pll.c.s
 
 xclockps_sinit.obj: xclockps_sinit.c.obj
@@ -351,7 +351,7 @@ xclockps_sinit.obj: xclockps_sinit.c.obj
 
 # target to build an object file
 xclockps_sinit.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_sinit.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_sinit.c.obj
 .PHONY : xclockps_sinit.c.obj
 
 xclockps_sinit.i: xclockps_sinit.c.i
@@ -359,7 +359,7 @@ xclockps_sinit.i: xclockps_sinit.c.i
 
 # target to preprocess a source file
 xclockps_sinit.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_sinit.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_sinit.c.i
 .PHONY : xclockps_sinit.c.i
 
 xclockps_sinit.s: xclockps_sinit.c.s
@@ -367,7 +367,7 @@ xclockps_sinit.s: xclockps_sinit.c.s
 
 # target to generate assembly for a file
 xclockps_sinit.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_sinit.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/clockps/src/CMakeFiles/clockps.dir/build.make libsrc/clockps/src/CMakeFiles/clockps.dir/xclockps_sinit.c.s
 .PHONY : xclockps_sinit.c.s
 
 # Help Target
@@ -418,6 +418,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

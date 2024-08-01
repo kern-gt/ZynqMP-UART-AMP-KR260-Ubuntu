@@ -60,10 +60,10 @@ RM = /tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp
+CMAKE_SOURCE_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp
+CMAKE_BINARY_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp/CMakeFiles /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/rtcpsu/src//CMakeFiles/progress.marks
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/rtcpsu/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp/CMakeFiles 0
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp/CMakeFiles /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/rtcpsu/src//CMakeFiles/progress.marks
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/rtcpsu/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/rtcpsu/src/clean
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/rtcpsu/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -151,22 +151,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/rtcpsu/src/preinstall
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/rtcpsu/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/rtcpsu/src/preinstall
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/rtcpsu/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/rule:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/rule
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/rule
 .PHONY : libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/rule
 
 # Convenience name for target.
@@ -175,7 +175,7 @@ rtcpsu: libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/rule
 
 # fast build rule for target.
 rtcpsu/fast:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build
 .PHONY : rtcpsu/fast
 
 xrtcpsu.obj: xrtcpsu.c.obj
@@ -183,7 +183,7 @@ xrtcpsu.obj: xrtcpsu.c.obj
 
 # target to build an object file
 xrtcpsu.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu.c.obj
 .PHONY : xrtcpsu.c.obj
 
 xrtcpsu.i: xrtcpsu.c.i
@@ -191,7 +191,7 @@ xrtcpsu.i: xrtcpsu.c.i
 
 # target to preprocess a source file
 xrtcpsu.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu.c.i
 .PHONY : xrtcpsu.c.i
 
 xrtcpsu.s: xrtcpsu.c.s
@@ -199,7 +199,7 @@ xrtcpsu.s: xrtcpsu.c.s
 
 # target to generate assembly for a file
 xrtcpsu.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu.c.s
 .PHONY : xrtcpsu.c.s
 
 xrtcpsu_g.obj: xrtcpsu_g.c.obj
@@ -207,7 +207,7 @@ xrtcpsu_g.obj: xrtcpsu_g.c.obj
 
 # target to build an object file
 xrtcpsu_g.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_g.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_g.c.obj
 .PHONY : xrtcpsu_g.c.obj
 
 xrtcpsu_g.i: xrtcpsu_g.c.i
@@ -215,7 +215,7 @@ xrtcpsu_g.i: xrtcpsu_g.c.i
 
 # target to preprocess a source file
 xrtcpsu_g.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_g.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_g.c.i
 .PHONY : xrtcpsu_g.c.i
 
 xrtcpsu_g.s: xrtcpsu_g.c.s
@@ -223,7 +223,7 @@ xrtcpsu_g.s: xrtcpsu_g.c.s
 
 # target to generate assembly for a file
 xrtcpsu_g.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_g.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_g.c.s
 .PHONY : xrtcpsu_g.c.s
 
 xrtcpsu_intr.obj: xrtcpsu_intr.c.obj
@@ -231,7 +231,7 @@ xrtcpsu_intr.obj: xrtcpsu_intr.c.obj
 
 # target to build an object file
 xrtcpsu_intr.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_intr.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_intr.c.obj
 .PHONY : xrtcpsu_intr.c.obj
 
 xrtcpsu_intr.i: xrtcpsu_intr.c.i
@@ -239,7 +239,7 @@ xrtcpsu_intr.i: xrtcpsu_intr.c.i
 
 # target to preprocess a source file
 xrtcpsu_intr.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_intr.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_intr.c.i
 .PHONY : xrtcpsu_intr.c.i
 
 xrtcpsu_intr.s: xrtcpsu_intr.c.s
@@ -247,7 +247,7 @@ xrtcpsu_intr.s: xrtcpsu_intr.c.s
 
 # target to generate assembly for a file
 xrtcpsu_intr.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_intr.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_intr.c.s
 .PHONY : xrtcpsu_intr.c.s
 
 xrtcpsu_selftest.obj: xrtcpsu_selftest.c.obj
@@ -255,7 +255,7 @@ xrtcpsu_selftest.obj: xrtcpsu_selftest.c.obj
 
 # target to build an object file
 xrtcpsu_selftest.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_selftest.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_selftest.c.obj
 .PHONY : xrtcpsu_selftest.c.obj
 
 xrtcpsu_selftest.i: xrtcpsu_selftest.c.i
@@ -263,7 +263,7 @@ xrtcpsu_selftest.i: xrtcpsu_selftest.c.i
 
 # target to preprocess a source file
 xrtcpsu_selftest.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_selftest.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_selftest.c.i
 .PHONY : xrtcpsu_selftest.c.i
 
 xrtcpsu_selftest.s: xrtcpsu_selftest.c.s
@@ -271,7 +271,7 @@ xrtcpsu_selftest.s: xrtcpsu_selftest.c.s
 
 # target to generate assembly for a file
 xrtcpsu_selftest.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_selftest.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_selftest.c.s
 .PHONY : xrtcpsu_selftest.c.s
 
 xrtcpsu_sinit.obj: xrtcpsu_sinit.c.obj
@@ -279,7 +279,7 @@ xrtcpsu_sinit.obj: xrtcpsu_sinit.c.obj
 
 # target to build an object file
 xrtcpsu_sinit.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_sinit.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_sinit.c.obj
 .PHONY : xrtcpsu_sinit.c.obj
 
 xrtcpsu_sinit.i: xrtcpsu_sinit.c.i
@@ -287,7 +287,7 @@ xrtcpsu_sinit.i: xrtcpsu_sinit.c.i
 
 # target to preprocess a source file
 xrtcpsu_sinit.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_sinit.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_sinit.c.i
 .PHONY : xrtcpsu_sinit.c.i
 
 xrtcpsu_sinit.s: xrtcpsu_sinit.c.s
@@ -295,7 +295,7 @@ xrtcpsu_sinit.s: xrtcpsu_sinit.c.s
 
 # target to generate assembly for a file
 xrtcpsu_sinit.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_sinit.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/build.make libsrc/rtcpsu/src/CMakeFiles/rtcpsu.dir/xrtcpsu_sinit.c.s
 .PHONY : xrtcpsu_sinit.c.s
 
 # Help Target
@@ -337,6 +337,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,0 +1,12 @@
+2024-08-02 03:16:48 [info] : [Platform Server] Clean platform output stream finished - pf_amp_uart_r5_0. 
+2024-08-02 03:17:41 [info] : [Platform Server] Generate platform output stream finished - pf_amp_uart_r5_0. 
+2024-08-02 03:17:53 [info] : [Platform Server] Clean platform output stream finished - pf_amp_uart_r5_1. 
+2024-08-02 03:19:01 [info] : [Platform Server] Generate platform output stream finished - pf_amp_uart_r5_1. 
+2024-08-02 03:19:11 [info] : [Build Server] Clean output stream finished - app_echo_uart_r5_0::. 
+2024-08-02 03:19:25 [info] : [Build Server] Build output stream finished - app_echo_uart_r5_0::. 
+2024-08-02 03:19:34 [info] : [Build Server] Clean output stream finished - app_echo_uart_r5_1::. 
+2024-08-02 03:19:42 [info] : [Build Server] Build output stream finished - app_echo_uart_r5_1::. 
+2024-08-02 03:21:27 [info] : [Build Server] Clean output stream finished - app_echo_uart_r5_0::. 
+2024-08-02 03:21:32 [info] : [Build Server] Clean output stream finished - app_echo_uart_r5_1::. 
+2024-08-02 03:21:36 [info] : [Platform Server] Clean platform output stream finished - pf_amp_uart_r5_0. 
+2024-08-02 03:21:48 [info] : [Platform Server] Clean platform output stream finished - pf_amp_uart_r5_1. 

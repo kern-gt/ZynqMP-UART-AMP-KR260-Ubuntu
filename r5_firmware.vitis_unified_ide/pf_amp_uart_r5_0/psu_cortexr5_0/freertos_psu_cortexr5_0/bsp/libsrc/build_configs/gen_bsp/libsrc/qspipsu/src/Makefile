@@ -60,10 +60,10 @@ RM = /tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp
+CMAKE_SOURCE_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp
+CMAKE_BINARY_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/CMakeFiles /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/qspipsu/src//CMakeFiles/progress.marks
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/qspipsu/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/CMakeFiles 0
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/CMakeFiles /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/libsrc/qspipsu/src//CMakeFiles/progress.marks
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/qspipsu/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/qspipsu/src/clean
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/qspipsu/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -151,22 +151,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/qspipsu/src/preinstall
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/qspipsu/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/qspipsu/src/preinstall
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/qspipsu/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/rule:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/rule
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/rule
 .PHONY : libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/rule
 
 # Convenience name for target.
@@ -175,7 +175,7 @@ qspipsu: libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/rule
 
 # fast build rule for target.
 qspipsu/fast:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build
 .PHONY : qspipsu/fast
 
 xqspipsu.obj: xqspipsu.c.obj
@@ -183,7 +183,7 @@ xqspipsu.obj: xqspipsu.c.obj
 
 # target to build an object file
 xqspipsu.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu.c.obj
 .PHONY : xqspipsu.c.obj
 
 xqspipsu.i: xqspipsu.c.i
@@ -191,7 +191,7 @@ xqspipsu.i: xqspipsu.c.i
 
 # target to preprocess a source file
 xqspipsu.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu.c.i
 .PHONY : xqspipsu.c.i
 
 xqspipsu.s: xqspipsu.c.s
@@ -199,7 +199,7 @@ xqspipsu.s: xqspipsu.c.s
 
 # target to generate assembly for a file
 xqspipsu.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu.c.s
 .PHONY : xqspipsu.c.s
 
 xqspipsu_control.obj: xqspipsu_control.c.obj
@@ -207,7 +207,7 @@ xqspipsu_control.obj: xqspipsu_control.c.obj
 
 # target to build an object file
 xqspipsu_control.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_control.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_control.c.obj
 .PHONY : xqspipsu_control.c.obj
 
 xqspipsu_control.i: xqspipsu_control.c.i
@@ -215,7 +215,7 @@ xqspipsu_control.i: xqspipsu_control.c.i
 
 # target to preprocess a source file
 xqspipsu_control.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_control.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_control.c.i
 .PHONY : xqspipsu_control.c.i
 
 xqspipsu_control.s: xqspipsu_control.c.s
@@ -223,7 +223,7 @@ xqspipsu_control.s: xqspipsu_control.c.s
 
 # target to generate assembly for a file
 xqspipsu_control.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_control.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_control.c.s
 .PHONY : xqspipsu_control.c.s
 
 xqspipsu_g.obj: xqspipsu_g.c.obj
@@ -231,7 +231,7 @@ xqspipsu_g.obj: xqspipsu_g.c.obj
 
 # target to build an object file
 xqspipsu_g.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_g.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_g.c.obj
 .PHONY : xqspipsu_g.c.obj
 
 xqspipsu_g.i: xqspipsu_g.c.i
@@ -239,7 +239,7 @@ xqspipsu_g.i: xqspipsu_g.c.i
 
 # target to preprocess a source file
 xqspipsu_g.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_g.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_g.c.i
 .PHONY : xqspipsu_g.c.i
 
 xqspipsu_g.s: xqspipsu_g.c.s
@@ -247,7 +247,7 @@ xqspipsu_g.s: xqspipsu_g.c.s
 
 # target to generate assembly for a file
 xqspipsu_g.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_g.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_g.c.s
 .PHONY : xqspipsu_g.c.s
 
 xqspipsu_hw.obj: xqspipsu_hw.c.obj
@@ -255,7 +255,7 @@ xqspipsu_hw.obj: xqspipsu_hw.c.obj
 
 # target to build an object file
 xqspipsu_hw.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_hw.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_hw.c.obj
 .PHONY : xqspipsu_hw.c.obj
 
 xqspipsu_hw.i: xqspipsu_hw.c.i
@@ -263,7 +263,7 @@ xqspipsu_hw.i: xqspipsu_hw.c.i
 
 # target to preprocess a source file
 xqspipsu_hw.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_hw.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_hw.c.i
 .PHONY : xqspipsu_hw.c.i
 
 xqspipsu_hw.s: xqspipsu_hw.c.s
@@ -271,7 +271,7 @@ xqspipsu_hw.s: xqspipsu_hw.c.s
 
 # target to generate assembly for a file
 xqspipsu_hw.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_hw.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_hw.c.s
 .PHONY : xqspipsu_hw.c.s
 
 xqspipsu_options.obj: xqspipsu_options.c.obj
@@ -279,7 +279,7 @@ xqspipsu_options.obj: xqspipsu_options.c.obj
 
 # target to build an object file
 xqspipsu_options.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_options.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_options.c.obj
 .PHONY : xqspipsu_options.c.obj
 
 xqspipsu_options.i: xqspipsu_options.c.i
@@ -287,7 +287,7 @@ xqspipsu_options.i: xqspipsu_options.c.i
 
 # target to preprocess a source file
 xqspipsu_options.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_options.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_options.c.i
 .PHONY : xqspipsu_options.c.i
 
 xqspipsu_options.s: xqspipsu_options.c.s
@@ -295,7 +295,7 @@ xqspipsu_options.s: xqspipsu_options.c.s
 
 # target to generate assembly for a file
 xqspipsu_options.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_options.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_options.c.s
 .PHONY : xqspipsu_options.c.s
 
 xqspipsu_sinit.obj: xqspipsu_sinit.c.obj
@@ -303,7 +303,7 @@ xqspipsu_sinit.obj: xqspipsu_sinit.c.obj
 
 # target to build an object file
 xqspipsu_sinit.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_sinit.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_sinit.c.obj
 .PHONY : xqspipsu_sinit.c.obj
 
 xqspipsu_sinit.i: xqspipsu_sinit.c.i
@@ -311,7 +311,7 @@ xqspipsu_sinit.i: xqspipsu_sinit.c.i
 
 # target to preprocess a source file
 xqspipsu_sinit.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_sinit.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_sinit.c.i
 .PHONY : xqspipsu_sinit.c.i
 
 xqspipsu_sinit.s: xqspipsu_sinit.c.s
@@ -319,7 +319,7 @@ xqspipsu_sinit.s: xqspipsu_sinit.c.s
 
 # target to generate assembly for a file
 xqspipsu_sinit.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_sinit.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_sinit.c.s
 .PHONY : xqspipsu_sinit.c.s
 
 xqspipsu_xfer.obj: xqspipsu_xfer.c.obj
@@ -327,7 +327,7 @@ xqspipsu_xfer.obj: xqspipsu_xfer.c.obj
 
 # target to build an object file
 xqspipsu_xfer.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_xfer.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_xfer.c.obj
 .PHONY : xqspipsu_xfer.c.obj
 
 xqspipsu_xfer.i: xqspipsu_xfer.c.i
@@ -335,7 +335,7 @@ xqspipsu_xfer.i: xqspipsu_xfer.c.i
 
 # target to preprocess a source file
 xqspipsu_xfer.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_xfer.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_xfer.c.i
 .PHONY : xqspipsu_xfer.c.i
 
 xqspipsu_xfer.s: xqspipsu_xfer.c.s
@@ -343,7 +343,7 @@ xqspipsu_xfer.s: xqspipsu_xfer.c.s
 
 # target to generate assembly for a file
 xqspipsu_xfer.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_xfer.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/build.make libsrc/qspipsu/src/CMakeFiles/qspipsu.dir/xqspipsu_xfer.c.s
 .PHONY : xqspipsu_xfer.c.s
 
 # Help Target
@@ -391,6 +391,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/psu_cortexr5_0/freertos_psu_cortexr5_0/bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

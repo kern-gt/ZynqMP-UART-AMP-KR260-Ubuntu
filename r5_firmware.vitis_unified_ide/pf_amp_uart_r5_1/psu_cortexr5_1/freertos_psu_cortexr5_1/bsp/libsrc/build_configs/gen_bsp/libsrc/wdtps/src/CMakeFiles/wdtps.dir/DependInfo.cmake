@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/wdtps/src/xwdtps.c" "libsrc/wdtps/src/CMakeFiles/wdtps.dir/xwdtps.c.obj" "gcc" "libsrc/wdtps/src/CMakeFiles/wdtps.dir/xwdtps.c.obj.d"
-  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/wdtps/src/xwdtps_g.c" "libsrc/wdtps/src/CMakeFiles/wdtps.dir/xwdtps_g.c.obj" "gcc" "libsrc/wdtps/src/CMakeFiles/wdtps.dir/xwdtps_g.c.obj.d"
-  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/wdtps/src/xwdtps_selftest.c" "libsrc/wdtps/src/CMakeFiles/wdtps.dir/xwdtps_selftest.c.obj" "gcc" "libsrc/wdtps/src/CMakeFiles/wdtps.dir/xwdtps_selftest.c.obj.d"
-  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/wdtps/src/xwdtps_sinit.c" "libsrc/wdtps/src/CMakeFiles/wdtps.dir/xwdtps_sinit.c.obj" "gcc" "libsrc/wdtps/src/CMakeFiles/wdtps.dir/xwdtps_sinit.c.obj.d"
+  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/wdtps/src/xwdtps.c" "libsrc/wdtps/src/CMakeFiles/wdtps.dir/xwdtps.c.obj" "gcc" "libsrc/wdtps/src/CMakeFiles/wdtps.dir/xwdtps.c.obj.d"
+  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/wdtps/src/xwdtps_g.c" "libsrc/wdtps/src/CMakeFiles/wdtps.dir/xwdtps_g.c.obj" "gcc" "libsrc/wdtps/src/CMakeFiles/wdtps.dir/xwdtps_g.c.obj.d"
+  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/wdtps/src/xwdtps_selftest.c" "libsrc/wdtps/src/CMakeFiles/wdtps.dir/xwdtps_selftest.c.obj" "gcc" "libsrc/wdtps/src/CMakeFiles/wdtps.dir/xwdtps_selftest.c.obj.d"
+  "/home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_1/psu_cortexr5_1/freertos_psu_cortexr5_1/bsp/libsrc/wdtps/src/xwdtps_sinit.c" "libsrc/wdtps/src/CMakeFiles/wdtps.dir/xwdtps_sinit.c.obj" "gcc" "libsrc/wdtps/src/CMakeFiles/wdtps.dir/xwdtps_sinit.c.obj.d"
   )
 
 # Targets to which this target links.

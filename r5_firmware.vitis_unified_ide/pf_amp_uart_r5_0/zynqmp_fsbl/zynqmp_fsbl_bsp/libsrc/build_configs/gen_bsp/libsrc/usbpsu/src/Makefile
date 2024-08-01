@@ -60,10 +60,10 @@ RM = /tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp
+CMAKE_SOURCE_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp
+CMAKE_BINARY_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp/CMakeFiles /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/usbpsu/src//CMakeFiles/progress.marks
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/usbpsu/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp/CMakeFiles 0
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp/CMakeFiles /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/usbpsu/src//CMakeFiles/progress.marks
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/usbpsu/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/usbpsu/src/clean
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/usbpsu/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -151,22 +151,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/usbpsu/src/preinstall
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/usbpsu/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/usbpsu/src/preinstall
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/usbpsu/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/rule:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/rule
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/rule
 .PHONY : libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/rule
 
 # Convenience name for target.
@@ -175,7 +175,7 @@ usbpsu: libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/rule
 
 # fast build rule for target.
 usbpsu/fast:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build
 .PHONY : usbpsu/fast
 
 xusbpsu.obj: xusbpsu.c.obj
@@ -183,7 +183,7 @@ xusbpsu.obj: xusbpsu.c.obj
 
 # target to build an object file
 xusbpsu.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu.c.obj
 .PHONY : xusbpsu.c.obj
 
 xusbpsu.i: xusbpsu.c.i
@@ -191,7 +191,7 @@ xusbpsu.i: xusbpsu.c.i
 
 # target to preprocess a source file
 xusbpsu.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu.c.i
 .PHONY : xusbpsu.c.i
 
 xusbpsu.s: xusbpsu.c.s
@@ -199,7 +199,7 @@ xusbpsu.s: xusbpsu.c.s
 
 # target to generate assembly for a file
 xusbpsu.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu.c.s
 .PHONY : xusbpsu.c.s
 
 xusbpsu_command.obj: xusbpsu_command.c.obj
@@ -207,7 +207,7 @@ xusbpsu_command.obj: xusbpsu_command.c.obj
 
 # target to build an object file
 xusbpsu_command.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_command.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_command.c.obj
 .PHONY : xusbpsu_command.c.obj
 
 xusbpsu_command.i: xusbpsu_command.c.i
@@ -215,7 +215,7 @@ xusbpsu_command.i: xusbpsu_command.c.i
 
 # target to preprocess a source file
 xusbpsu_command.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_command.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_command.c.i
 .PHONY : xusbpsu_command.c.i
 
 xusbpsu_command.s: xusbpsu_command.c.s
@@ -223,7 +223,7 @@ xusbpsu_command.s: xusbpsu_command.c.s
 
 # target to generate assembly for a file
 xusbpsu_command.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_command.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_command.c.s
 .PHONY : xusbpsu_command.c.s
 
 xusbpsu_controltransfers.obj: xusbpsu_controltransfers.c.obj
@@ -231,7 +231,7 @@ xusbpsu_controltransfers.obj: xusbpsu_controltransfers.c.obj
 
 # target to build an object file
 xusbpsu_controltransfers.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_controltransfers.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_controltransfers.c.obj
 .PHONY : xusbpsu_controltransfers.c.obj
 
 xusbpsu_controltransfers.i: xusbpsu_controltransfers.c.i
@@ -239,7 +239,7 @@ xusbpsu_controltransfers.i: xusbpsu_controltransfers.c.i
 
 # target to preprocess a source file
 xusbpsu_controltransfers.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_controltransfers.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_controltransfers.c.i
 .PHONY : xusbpsu_controltransfers.c.i
 
 xusbpsu_controltransfers.s: xusbpsu_controltransfers.c.s
@@ -247,7 +247,7 @@ xusbpsu_controltransfers.s: xusbpsu_controltransfers.c.s
 
 # target to generate assembly for a file
 xusbpsu_controltransfers.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_controltransfers.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_controltransfers.c.s
 .PHONY : xusbpsu_controltransfers.c.s
 
 xusbpsu_device.obj: xusbpsu_device.c.obj
@@ -255,7 +255,7 @@ xusbpsu_device.obj: xusbpsu_device.c.obj
 
 # target to build an object file
 xusbpsu_device.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_device.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_device.c.obj
 .PHONY : xusbpsu_device.c.obj
 
 xusbpsu_device.i: xusbpsu_device.c.i
@@ -263,7 +263,7 @@ xusbpsu_device.i: xusbpsu_device.c.i
 
 # target to preprocess a source file
 xusbpsu_device.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_device.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_device.c.i
 .PHONY : xusbpsu_device.c.i
 
 xusbpsu_device.s: xusbpsu_device.c.s
@@ -271,7 +271,7 @@ xusbpsu_device.s: xusbpsu_device.c.s
 
 # target to generate assembly for a file
 xusbpsu_device.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_device.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_device.c.s
 .PHONY : xusbpsu_device.c.s
 
 xusbpsu_endpoint.obj: xusbpsu_endpoint.c.obj
@@ -279,7 +279,7 @@ xusbpsu_endpoint.obj: xusbpsu_endpoint.c.obj
 
 # target to build an object file
 xusbpsu_endpoint.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_endpoint.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_endpoint.c.obj
 .PHONY : xusbpsu_endpoint.c.obj
 
 xusbpsu_endpoint.i: xusbpsu_endpoint.c.i
@@ -287,7 +287,7 @@ xusbpsu_endpoint.i: xusbpsu_endpoint.c.i
 
 # target to preprocess a source file
 xusbpsu_endpoint.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_endpoint.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_endpoint.c.i
 .PHONY : xusbpsu_endpoint.c.i
 
 xusbpsu_endpoint.s: xusbpsu_endpoint.c.s
@@ -295,7 +295,7 @@ xusbpsu_endpoint.s: xusbpsu_endpoint.c.s
 
 # target to generate assembly for a file
 xusbpsu_endpoint.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_endpoint.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_endpoint.c.s
 .PHONY : xusbpsu_endpoint.c.s
 
 xusbpsu_ep0handler.obj: xusbpsu_ep0handler.c.obj
@@ -303,7 +303,7 @@ xusbpsu_ep0handler.obj: xusbpsu_ep0handler.c.obj
 
 # target to build an object file
 xusbpsu_ep0handler.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_ep0handler.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_ep0handler.c.obj
 .PHONY : xusbpsu_ep0handler.c.obj
 
 xusbpsu_ep0handler.i: xusbpsu_ep0handler.c.i
@@ -311,7 +311,7 @@ xusbpsu_ep0handler.i: xusbpsu_ep0handler.c.i
 
 # target to preprocess a source file
 xusbpsu_ep0handler.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_ep0handler.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_ep0handler.c.i
 .PHONY : xusbpsu_ep0handler.c.i
 
 xusbpsu_ep0handler.s: xusbpsu_ep0handler.c.s
@@ -319,7 +319,7 @@ xusbpsu_ep0handler.s: xusbpsu_ep0handler.c.s
 
 # target to generate assembly for a file
 xusbpsu_ep0handler.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_ep0handler.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_ep0handler.c.s
 .PHONY : xusbpsu_ep0handler.c.s
 
 xusbpsu_ephandler.obj: xusbpsu_ephandler.c.obj
@@ -327,7 +327,7 @@ xusbpsu_ephandler.obj: xusbpsu_ephandler.c.obj
 
 # target to build an object file
 xusbpsu_ephandler.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_ephandler.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_ephandler.c.obj
 .PHONY : xusbpsu_ephandler.c.obj
 
 xusbpsu_ephandler.i: xusbpsu_ephandler.c.i
@@ -335,7 +335,7 @@ xusbpsu_ephandler.i: xusbpsu_ephandler.c.i
 
 # target to preprocess a source file
 xusbpsu_ephandler.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_ephandler.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_ephandler.c.i
 .PHONY : xusbpsu_ephandler.c.i
 
 xusbpsu_ephandler.s: xusbpsu_ephandler.c.s
@@ -343,7 +343,7 @@ xusbpsu_ephandler.s: xusbpsu_ephandler.c.s
 
 # target to generate assembly for a file
 xusbpsu_ephandler.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_ephandler.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_ephandler.c.s
 .PHONY : xusbpsu_ephandler.c.s
 
 xusbpsu_event.obj: xusbpsu_event.c.obj
@@ -351,7 +351,7 @@ xusbpsu_event.obj: xusbpsu_event.c.obj
 
 # target to build an object file
 xusbpsu_event.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_event.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_event.c.obj
 .PHONY : xusbpsu_event.c.obj
 
 xusbpsu_event.i: xusbpsu_event.c.i
@@ -359,7 +359,7 @@ xusbpsu_event.i: xusbpsu_event.c.i
 
 # target to preprocess a source file
 xusbpsu_event.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_event.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_event.c.i
 .PHONY : xusbpsu_event.c.i
 
 xusbpsu_event.s: xusbpsu_event.c.s
@@ -367,7 +367,7 @@ xusbpsu_event.s: xusbpsu_event.c.s
 
 # target to generate assembly for a file
 xusbpsu_event.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_event.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_event.c.s
 .PHONY : xusbpsu_event.c.s
 
 xusbpsu_g.obj: xusbpsu_g.c.obj
@@ -375,7 +375,7 @@ xusbpsu_g.obj: xusbpsu_g.c.obj
 
 # target to build an object file
 xusbpsu_g.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_g.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_g.c.obj
 .PHONY : xusbpsu_g.c.obj
 
 xusbpsu_g.i: xusbpsu_g.c.i
@@ -383,7 +383,7 @@ xusbpsu_g.i: xusbpsu_g.c.i
 
 # target to preprocess a source file
 xusbpsu_g.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_g.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_g.c.i
 .PHONY : xusbpsu_g.c.i
 
 xusbpsu_g.s: xusbpsu_g.c.s
@@ -391,7 +391,7 @@ xusbpsu_g.s: xusbpsu_g.c.s
 
 # target to generate assembly for a file
 xusbpsu_g.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_g.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_g.c.s
 .PHONY : xusbpsu_g.c.s
 
 xusbpsu_hibernation.obj: xusbpsu_hibernation.c.obj
@@ -399,7 +399,7 @@ xusbpsu_hibernation.obj: xusbpsu_hibernation.c.obj
 
 # target to build an object file
 xusbpsu_hibernation.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_hibernation.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_hibernation.c.obj
 .PHONY : xusbpsu_hibernation.c.obj
 
 xusbpsu_hibernation.i: xusbpsu_hibernation.c.i
@@ -407,7 +407,7 @@ xusbpsu_hibernation.i: xusbpsu_hibernation.c.i
 
 # target to preprocess a source file
 xusbpsu_hibernation.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_hibernation.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_hibernation.c.i
 .PHONY : xusbpsu_hibernation.c.i
 
 xusbpsu_hibernation.s: xusbpsu_hibernation.c.s
@@ -415,7 +415,7 @@ xusbpsu_hibernation.s: xusbpsu_hibernation.c.s
 
 # target to generate assembly for a file
 xusbpsu_hibernation.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_hibernation.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_hibernation.c.s
 .PHONY : xusbpsu_hibernation.c.s
 
 xusbpsu_intr.obj: xusbpsu_intr.c.obj
@@ -423,7 +423,7 @@ xusbpsu_intr.obj: xusbpsu_intr.c.obj
 
 # target to build an object file
 xusbpsu_intr.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_intr.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_intr.c.obj
 .PHONY : xusbpsu_intr.c.obj
 
 xusbpsu_intr.i: xusbpsu_intr.c.i
@@ -431,7 +431,7 @@ xusbpsu_intr.i: xusbpsu_intr.c.i
 
 # target to preprocess a source file
 xusbpsu_intr.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_intr.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_intr.c.i
 .PHONY : xusbpsu_intr.c.i
 
 xusbpsu_intr.s: xusbpsu_intr.c.s
@@ -439,7 +439,7 @@ xusbpsu_intr.s: xusbpsu_intr.c.s
 
 # target to generate assembly for a file
 xusbpsu_intr.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_intr.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_intr.c.s
 .PHONY : xusbpsu_intr.c.s
 
 xusbpsu_sinit.obj: xusbpsu_sinit.c.obj
@@ -447,7 +447,7 @@ xusbpsu_sinit.obj: xusbpsu_sinit.c.obj
 
 # target to build an object file
 xusbpsu_sinit.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_sinit.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_sinit.c.obj
 .PHONY : xusbpsu_sinit.c.obj
 
 xusbpsu_sinit.i: xusbpsu_sinit.c.i
@@ -455,7 +455,7 @@ xusbpsu_sinit.i: xusbpsu_sinit.c.i
 
 # target to preprocess a source file
 xusbpsu_sinit.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_sinit.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_sinit.c.i
 .PHONY : xusbpsu_sinit.c.i
 
 xusbpsu_sinit.s: xusbpsu_sinit.c.s
@@ -463,7 +463,7 @@ xusbpsu_sinit.s: xusbpsu_sinit.c.s
 
 # target to generate assembly for a file
 xusbpsu_sinit.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_sinit.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/build.make libsrc/usbpsu/src/CMakeFiles/usbpsu.dir/xusbpsu_sinit.c.s
 .PHONY : xusbpsu_sinit.c.s
 
 # Help Target
@@ -526,6 +526,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -60,10 +60,10 @@ RM = /tools/Xilinx/Vitis/2024.1/tps/lnx64/cmake-3.24.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp
+CMAKE_SOURCE_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp
+CMAKE_BINARY_DIR = /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp/CMakeFiles /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/xilpm/src//CMakeFiles/progress.marks
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/xilpm/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp/CMakeFiles 0
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp/CMakeFiles /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/xilpm/src//CMakeFiles/progress.marks
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/xilpm/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/xilpm/src/clean
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/xilpm/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -151,22 +151,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/xilpm/src/preinstall
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/xilpm/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/xilpm/src/preinstall
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/xilpm/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libsrc/xilpm/src/CMakeFiles/xilpm.dir/rule:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/xilpm/src/CMakeFiles/xilpm.dir/rule
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsrc/xilpm/src/CMakeFiles/xilpm.dir/rule
 .PHONY : libsrc/xilpm/src/CMakeFiles/xilpm.dir/rule
 
 # Convenience name for target.
@@ -175,7 +175,7 @@ xilpm: libsrc/xilpm/src/CMakeFiles/xilpm.dir/rule
 
 # fast build rule for target.
 xilpm/fast:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/build
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/build
 .PHONY : xilpm/fast
 
 zynqmp/client/apu/pm_client.obj: zynqmp/client/apu/pm_client.c.obj
@@ -183,7 +183,7 @@ zynqmp/client/apu/pm_client.obj: zynqmp/client/apu/pm_client.c.obj
 
 # target to build an object file
 zynqmp/client/apu/pm_client.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/apu/pm_client.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/apu/pm_client.c.obj
 .PHONY : zynqmp/client/apu/pm_client.c.obj
 
 zynqmp/client/apu/pm_client.i: zynqmp/client/apu/pm_client.c.i
@@ -191,7 +191,7 @@ zynqmp/client/apu/pm_client.i: zynqmp/client/apu/pm_client.c.i
 
 # target to preprocess a source file
 zynqmp/client/apu/pm_client.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/apu/pm_client.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/apu/pm_client.c.i
 .PHONY : zynqmp/client/apu/pm_client.c.i
 
 zynqmp/client/apu/pm_client.s: zynqmp/client/apu/pm_client.c.s
@@ -199,7 +199,7 @@ zynqmp/client/apu/pm_client.s: zynqmp/client/apu/pm_client.c.s
 
 # target to generate assembly for a file
 zynqmp/client/apu/pm_client.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/apu/pm_client.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/apu/pm_client.c.s
 .PHONY : zynqmp/client/apu/pm_client.c.s
 
 zynqmp/client/common/pm_api_sys.obj: zynqmp/client/common/pm_api_sys.c.obj
@@ -207,7 +207,7 @@ zynqmp/client/common/pm_api_sys.obj: zynqmp/client/common/pm_api_sys.c.obj
 
 # target to build an object file
 zynqmp/client/common/pm_api_sys.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_api_sys.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_api_sys.c.obj
 .PHONY : zynqmp/client/common/pm_api_sys.c.obj
 
 zynqmp/client/common/pm_api_sys.i: zynqmp/client/common/pm_api_sys.c.i
@@ -215,7 +215,7 @@ zynqmp/client/common/pm_api_sys.i: zynqmp/client/common/pm_api_sys.c.i
 
 # target to preprocess a source file
 zynqmp/client/common/pm_api_sys.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_api_sys.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_api_sys.c.i
 .PHONY : zynqmp/client/common/pm_api_sys.c.i
 
 zynqmp/client/common/pm_api_sys.s: zynqmp/client/common/pm_api_sys.c.s
@@ -223,7 +223,7 @@ zynqmp/client/common/pm_api_sys.s: zynqmp/client/common/pm_api_sys.c.s
 
 # target to generate assembly for a file
 zynqmp/client/common/pm_api_sys.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_api_sys.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_api_sys.c.s
 .PHONY : zynqmp/client/common/pm_api_sys.c.s
 
 zynqmp/client/common/pm_callbacks.obj: zynqmp/client/common/pm_callbacks.c.obj
@@ -231,7 +231,7 @@ zynqmp/client/common/pm_callbacks.obj: zynqmp/client/common/pm_callbacks.c.obj
 
 # target to build an object file
 zynqmp/client/common/pm_callbacks.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_callbacks.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_callbacks.c.obj
 .PHONY : zynqmp/client/common/pm_callbacks.c.obj
 
 zynqmp/client/common/pm_callbacks.i: zynqmp/client/common/pm_callbacks.c.i
@@ -239,7 +239,7 @@ zynqmp/client/common/pm_callbacks.i: zynqmp/client/common/pm_callbacks.c.i
 
 # target to preprocess a source file
 zynqmp/client/common/pm_callbacks.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_callbacks.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_callbacks.c.i
 .PHONY : zynqmp/client/common/pm_callbacks.c.i
 
 zynqmp/client/common/pm_callbacks.s: zynqmp/client/common/pm_callbacks.c.s
@@ -247,7 +247,7 @@ zynqmp/client/common/pm_callbacks.s: zynqmp/client/common/pm_callbacks.c.s
 
 # target to generate assembly for a file
 zynqmp/client/common/pm_callbacks.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_callbacks.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_callbacks.c.s
 .PHONY : zynqmp/client/common/pm_callbacks.c.s
 
 zynqmp/client/common/pm_cfg_obj.obj: zynqmp/client/common/pm_cfg_obj.c.obj
@@ -255,7 +255,7 @@ zynqmp/client/common/pm_cfg_obj.obj: zynqmp/client/common/pm_cfg_obj.c.obj
 
 # target to build an object file
 zynqmp/client/common/pm_cfg_obj.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_cfg_obj.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_cfg_obj.c.obj
 .PHONY : zynqmp/client/common/pm_cfg_obj.c.obj
 
 zynqmp/client/common/pm_cfg_obj.i: zynqmp/client/common/pm_cfg_obj.c.i
@@ -263,7 +263,7 @@ zynqmp/client/common/pm_cfg_obj.i: zynqmp/client/common/pm_cfg_obj.c.i
 
 # target to preprocess a source file
 zynqmp/client/common/pm_cfg_obj.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_cfg_obj.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_cfg_obj.c.i
 .PHONY : zynqmp/client/common/pm_cfg_obj.c.i
 
 zynqmp/client/common/pm_cfg_obj.s: zynqmp/client/common/pm_cfg_obj.c.s
@@ -271,7 +271,7 @@ zynqmp/client/common/pm_cfg_obj.s: zynqmp/client/common/pm_cfg_obj.c.s
 
 # target to generate assembly for a file
 zynqmp/client/common/pm_cfg_obj.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_cfg_obj.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_cfg_obj.c.s
 .PHONY : zynqmp/client/common/pm_cfg_obj.c.s
 
 zynqmp/client/common/pm_clock.obj: zynqmp/client/common/pm_clock.c.obj
@@ -279,7 +279,7 @@ zynqmp/client/common/pm_clock.obj: zynqmp/client/common/pm_clock.c.obj
 
 # target to build an object file
 zynqmp/client/common/pm_clock.c.obj:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_clock.c.obj
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_clock.c.obj
 .PHONY : zynqmp/client/common/pm_clock.c.obj
 
 zynqmp/client/common/pm_clock.i: zynqmp/client/common/pm_clock.c.i
@@ -287,7 +287,7 @@ zynqmp/client/common/pm_clock.i: zynqmp/client/common/pm_clock.c.i
 
 # target to preprocess a source file
 zynqmp/client/common/pm_clock.c.i:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_clock.c.i
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_clock.c.i
 .PHONY : zynqmp/client/common/pm_clock.c.i
 
 zynqmp/client/common/pm_clock.s: zynqmp/client/common/pm_clock.c.s
@@ -295,7 +295,7 @@ zynqmp/client/common/pm_clock.s: zynqmp/client/common/pm_clock.c.s
 
 # target to generate assembly for a file
 zynqmp/client/common/pm_clock.c.s:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_clock.c.s
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(MAKE) $(MAKESILENT) -f libsrc/xilpm/src/CMakeFiles/xilpm.dir/build.make libsrc/xilpm/src/CMakeFiles/xilpm.dir/zynqmp/client/common/pm_clock.c.s
 .PHONY : zynqmp/client/common/pm_clock.c.s
 
 # Help Target
@@ -337,6 +337,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/kr260_amp_uart.vitis/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kerngt/work/zynqmp/xli_v2024_1_wk/kr260_amp_uart_release/software_wk/ZynqMP-UART-AMP-KR260-Ubuntu/r5_firmware.vitis_unified_ide/pf_amp_uart_r5_0/zynqmp_fsbl/zynqmp_fsbl_bsp/libsrc/build_configs/gen_bsp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
