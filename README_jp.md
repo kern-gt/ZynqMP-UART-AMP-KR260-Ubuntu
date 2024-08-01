@@ -44,7 +44,7 @@ CR5 : ARM Cortex-R5
 Kria K26 SOMはJtagboot用の切り替えスイッチが無いため、サブコアのJtagデバッグを行う際はXSCTからTCLコマンドで切り替える必要が有ります。
 switch_jtagboot.shを実行すると切り替えることが出来ます。
 
-### linux_echo_test_app
+### linux_uart_amp_echo_test
 CA53(Linux側)で実行するための、エコーバックテストコードを格納してあります。詳しくは以下を参照してください。
 [linux_uart_amp_echo_test/README_jp.md](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/linux_uart_amp_echo_test/README_jp.md)
 

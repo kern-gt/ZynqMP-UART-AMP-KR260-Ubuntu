@@ -45,7 +45,7 @@ For more information, please refer to the following
 Kria K26 SOM does not have a switch for Jtagboot, so you need to use the TCL command from XSCT to switch to Jtag debugging on the sub-core.
 You can switch by running switch_jtagboot.sh.
 
-### linux_echo_test_app
+### linux_uart_amp_echo_test
 This contains the echo back test code to be executed on CA53 (Linux side). See below for details.
 [linux_uart_amp_echo_test/README.md](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/linux_uart_amp_echo_test/README.md)
 
