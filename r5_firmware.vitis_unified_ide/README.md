@@ -18,7 +18,7 @@ This folder contains the following.
 
 ### Step 2: Importing the application source code
 The _app_src_r5_0_ and _app_src_r5_1_ folders contain the loopback firmware code.
-The source code with the same file name is also stored in the Vitis project, but the one in _app_src_r5_1_ is the latest one.
+The source code with the same file name is also stored in the Vitis project, but the one in _app_src_r5_x_ is the latest one.
 ```
 app_src_r5_0
 ├── app
