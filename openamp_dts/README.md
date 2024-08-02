@@ -7,7 +7,9 @@ UART-AMP uses OpenAMP's Remoteproc feature to load ELFs and manage startup and s
 OpenAMP requires a reserved area on the DRAM that is not managed by Linux, so the Devicetree Overlay cannot be used.
 
 **Environment**.
-Assume Kria k26 SOM and Xilinx certified Ubuntu 22.04.
+* Kria k26 SOM
+* Xilinx certified Ubuntu 22.04.
+* Linux Kernel : 5.15.0-1031-xilinx-zynqmp
 
 ## Compiling Devicetree
 Run the following to generate user-override.dtb.

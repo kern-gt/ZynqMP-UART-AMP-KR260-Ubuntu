@@ -7,7 +7,10 @@ UART-AMPではサブコアのCortex-R5(CR5)のELFのロードおよび、起動�
 OpenAMPはDRAM上に予約領域を設定しLinuxの管理外に設定する必要があるため、Devicetree Overlayで対応できません。
 
 **環境**
-Kria k26 SOMとXilinx認定Ubuntu22.04を前提とします。
+以下を前提とします。
+* Kria k26 SOM
+* Xilinx認定Ubuntu22.04
+* Linux Kernel : 5.15.0-1031-xilinx-zynqmp
 
 ## Devicetreeのコンパイル
 以下を実行すると、user-override.dtbが生成されます。
