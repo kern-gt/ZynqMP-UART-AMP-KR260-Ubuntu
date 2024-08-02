@@ -3,12 +3,13 @@
 [Click here for the English version](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/README.md)
 
 ## Overview
-これは、ZynqMP上でLinuxとサブコアのコア間通信を行うデモです。以下の構成をサポートしています。
+KriaSOM(ZynqMP)上でLinuxとサブコアのコア間通信を行うデモです。以下の構成をサポートしています。
 * CA53(AMD/Xilinx 認定Ubuntu22.04)
 * サブコア(0,1) : PS上のCR5-0, CR5-1
 * サブコア(2) : PL上のMicroblaze
 * PL上でCA53(Linux)とサブコアをAXI-UARTLiteで接続
 * エコーバックテストサンプル
+* KR260ボード
 
 ```mermaid
 graph TB;
@@ -28,7 +29,7 @@ graph TB;
 ```
 
 CA53 : ARM Cortex-A53  
-CR5 : ARM Cortex-R5
+CR5 : ARM Cortex-R5  
 UART : Xilinx LogiCORE™ IP AXI UART Lite
 <br><br>
 ## エコーバックテストを試す

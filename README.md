@@ -10,6 +10,7 @@ This is a demonstration of core-to-core communication between Linux and a sub-co
 * Subcore(2) : Microblaze on PL
 * CA53 (Linux) and sub-core on PL connected by AXI-UARTLite
 * Echo-back test sample
+* KR260 board
 
 ```mermaid
 graph TB;
@@ -29,7 +30,7 @@ graph TB;
 ```
 
 CA53 : ARM Cortex-A53  
-CR5 : ARM Cortex-R5
+CR5 : ARM Cortex-R5  
 UART : Xilinx LogiCORE™ IP AXI UART Lite
 <br><br>
 ## Getting Started
