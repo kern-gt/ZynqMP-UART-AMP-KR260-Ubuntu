@@ -1,5 +1,5 @@
 # Microblaze Firmware Project for UART-AMP
-[日本語版はこちら]()
+[日本語版はこちら](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/microblaze_firmware.vitis_classic/README_jp.md)
 ## Overview
 This folder contains the Microblaze firmware project for Vitis Classic IDE v2024.1
 It will be the original source code for the ELF for Microblaze that will be coupled to Bitstream in the echo-back test sample.
@@ -52,12 +52,13 @@ app_echo_uart_mb_0/src/
 ```
 Now you can build your code.
 Also, you will need to switch to Jtagboot mode when you bag a Microblaze stand-alone step execution.
-[jtag_tcl/switch_jtagboot.sh]()
+[jtag_tcl/switch_jtagboot.sh](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/tree/main/jtag_tcl)
 <br><br><br>
 ## Information for Developers
 The Microblaze firmware is basically the same design as for the Cortex-R5 (CR5).
 BootCPU for FSBL is allocated CA53#0.
-[See CR5 project for software structure]()
+
+[See CR5 project for software structure](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/r5_firmware.vitis_unified_ide/README.md)
 <br>
 The differences from the CR5 version are as follows
 * Bare-metal device drivers are used when SDT is not supported.

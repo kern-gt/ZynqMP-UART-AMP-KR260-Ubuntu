@@ -1,5 +1,5 @@
 # UART-AMP向けCortex-R5ファームウェアプロジェクト
-[Click here for the English version]()
+[Click here for the English version](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/r5_firmware.vitis_unified_ide/README.md)
 ## 概要
 このフォルダにはVitis Unified IDE v2024.1.1用のCortex-R5(CR5)ファームウェアプロジェクトが格納されています.
 エコーバックテストのサンプルで使用するCR5-0、CR5-1用のELFの元となるソースコードになります.
@@ -52,7 +52,7 @@ app_src_r5_1/* => app_echo_uart_r5_1/src/
 以上で、コードのビルドが出来るようになります.
 また、CR5の単体ステップ実行でバッグをする際にJtagbootモードへの移行が必要になります.Kria SOM向けにJtag bootモードに移行できるTCLコマンドを記述したShellスクリプトを用意してあります.  
 
-[jtag_tcl/switch_jtagboot.sh]()
+[jtag_tcl/switch_jtagboot.sh](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/tree/main/jtag_tcl)
 
 プロジェクトではCA53でFSBLを実行するように設定していますので、CR5のJtagデバッグはすぐ行うことが出来ます.
 
@@ -63,7 +63,7 @@ app_src_r5_1/* => app_echo_uart_r5_1/src/
 ### Microblazeのファームウェアについて
 MicroblazeはVitis Classic IDEでプロジェクトを構築しています.
 詳細はMicroblaze用フォルダを参照してください
-[microblaze_firmware.vitis_classic/]()  
+[microblaze_firmware.vitis_classic/](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/tree/main/microblaze_firmware.vitis_classic)  
   
 ### ファームウェアの機能
 現在以下の機能があります.
@@ -146,7 +146,7 @@ RemoteprocドライバはXilinx認定Ubuntuには予め含まれていますが�
 IPIとMailboxについてはおそらく未使用になりますが、一応定義します.認定UbuntuでOpenAMPのサポートがまだないので(2024/7)、Webの情報を集めて作成しました.当然動作保証はありません.
 OpenAMPのデバイスツリーは以下の場所にあります.  
 CR5のSplit(2コアモード)
-[openamp_dts/zynqmp_openamp_r5_split.dtsi]()
+[openamp_dts/zynqmp_openamp_r5_split.dtsi](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/openamp_dts/zynqmp_openamp_r5_split.dtsi)
 
 **CR5のメモリマップ**  
 CR5は主に次のセクションをDRAMに配置しています.

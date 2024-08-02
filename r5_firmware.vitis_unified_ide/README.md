@@ -1,5 +1,5 @@
 # Cortex-R5 firmware project for UART-AMP
-[日本語版はこちら]()
+[日本語版はこちら](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/r5_firmware.vitis_unified_ide/README_jp.md)
 ## Overview
 This folder contains the Cortex-R5 (CR5) firmware project for Vitis Unified IDE v2024.1.1
 This is the source code for the ELFs for CR5-0 and CR5-1 used in the echo-back test sample.
@@ -54,7 +54,7 @@ Now you can build your code.
 Also, you will need to switch to Jtagboot mode when you bag a single step execution of CR5.
 We have prepared a shell script for Kria SOM that describes the TCL commands to switch to Jtag boot mode. 
 
-[jtag_tcl/switch_jtagboot.sh]()
+[jtag_tcl/switch_jtagboot.sh](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/tree/main/jtag_tcl)
 
 The project is set up to run FSBL on CA53, so CR5 Jtag debug can be done immediately.
 
@@ -65,7 +65,7 @@ The project is set up to run FSBL on CA53, so CR5 Jtag debug can be done immedia
 ### About Microblaze Firmware
 Microblaze builds its projects in Vitis Classic IDE.
 See the folder for Microblaze for more information
-[microblaze_firmware.vitis_classic/]()  
+[microblaze_firmware.vitis_classic/](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/tree/main/microblaze_firmware.vitis_classic)  
 
 ### Firmware Features
 The following features are currently available
@@ -148,7 +148,7 @@ The following description is required in the device tree.
 
 IPI and Mailbox will probably be unused, but will be defined just in case. Since OpenAMP is not yet supported on certified Ubuntu (2024/7), I gathered information from the web to create this. Naturally, there is no guarantee of operation.
 The OpenAMP device tree is located at: CR5 Split (2-core mode)
-[openamp_dts/zynqmp_openamp_r5_split.dtsi]()
+[openamp_dts/zynqmp_openamp_r5_split.dtsi](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/openamp_dts/zynqmp_openamp_r5_split.dtsi)
 
 **CR5 memory map**  
 CR5 mainly arranges the following sections in DRAM.

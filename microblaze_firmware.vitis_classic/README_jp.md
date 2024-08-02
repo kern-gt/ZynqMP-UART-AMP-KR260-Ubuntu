@@ -1,5 +1,5 @@
 # UART-AMP向けMicroblazeファームウェアプロジェクト
-[Click here for the English version]()
+[Click here for the English version](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/microblaze_firmware.vitis_classic/README.md)
 ## 概要
 このフォルダにはVitis Classic IDE v2024.1用のMicroblazeファームウェアプロジェクトが格納されています.
 エコーバックテストのサンプルでBitstreamに結合されるMicroblaze用のELFの元となるソースコードになります.
@@ -52,13 +52,13 @@ app_echo_uart_mb_0/src/
 以上で、コードのビルドが出来るようになります.
 また、Microblazeの単体ステップ実行でバッグをする際にJtagbootモードへの移行が必要になります.Kria SOM向けにJtag bootモードに移行できるTCLコマンドを記述したShellスクリプトを用意してあります.  
 
-[jtag_tcl/switch_jtagboot.sh]()
+[jtag_tcl/switch_jtagboot.sh](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/tree/main/jtag_tcl)
 <br><br><br>
 ## 開発者向け情報
 Microblazeファームウェアは基本的にはCortex-R5(CR5)向けのものと同じ設計となっています.
 FSBL用BootCPUはCA53#0を割当てています.
 
-[ソフトウェアの構造はCR5プロジェクトを参照してください]()
+[ソフトウェアの構造はCR5プロジェクトを参照してください](https://github.com/kern-gt/ZynqMP-UART-AMP-KR260-Ubuntu/blob/main/r5_firmware.vitis_unified_ide/README_jp.md)
 <br>
 CR5版との違いは以下となっています.
 * ベアメタルデバイスドライバがSDTに非対応の場合の使用方法になる
