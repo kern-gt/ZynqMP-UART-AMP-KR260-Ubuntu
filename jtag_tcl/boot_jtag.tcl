@@ -1,3 +1,6 @@
+# Licensed under the Apache License, Version 2.0 
+# https://xilinx.github.io/kria-apps-docs/creating_applications/2022.1/build/html/docs/bootmodes.html
+
 proc boot_jtag { } {
 ############################
 # Switch to JTAG boot mode #
