@@ -12,13 +12,21 @@ Tools > Run Tck Script...
 Vivado ML v2024.1を使用しています。
 
 ## その他注意点
-#### MicroblazeのELFの結合
+### AXI UARTLiteのボーレート
+CR5側とMicroblaze側でボーレートを変えてあります。
+* CR5 : 115200bps
+* Microblaze : 9600bps
+
+理由は115200bpsではMicroblazeの処理が間に合わず、パケロスが発生するためです。
+AXI UARTLiteのハードウェア受信FIFOは16byteありますが、割込みで読み出してもバッファオーバーフローすることを確認しています。
+
+### MicroblazeのELFの結合  
 PL(FPGA)コンフィグレーション実行時にBlockRAMにELFを展開してMicroblazeを起動させるようにします。そのために、VivadoでELFをビットストリームに結合します。ELFを設定した後はbitstreamを再生成するようにします。
 ```
 Tools > Associate ELF Files...
 ```
 
-#### Bitstream.binの生成
+### Bitstream.binの生成  
 Bitstreamは基本は(.bit)ファイルですが、BINに変換したファイルがDevicetree Overlayに必要です。Vivadoの設定でBINを出力する設定が出来ます。
 ```
 PROGECT MANAGER > Settings > Progect Settings > Bitstream

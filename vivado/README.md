@@ -12,6 +12,14 @@ Tools > Run Tck Script...
 We are using Vivado ML v2024.1.
 
 ## Other notes
+### AXI UARTLite baud rate
+The baud rate is changed on CR5 side and Microblaze side.
+* CR5 : 115200bps
+* Microblaze : 9600bps
+
+The reason is that the Microblaze cannot process at 115200bps and packet loss will occur.
+The hardware receive FIFO of AXI UARTLite has 16 bytes, but we have confirmed that the buffer overflows even if it is read by an interrupt.
+  
 #### Microblaze ELF binding
 We want to deploy ELFs in BlockRAM to start Microblaze when the PL (FPGA) configuration is executed. To do so, bind the ELF to a bitstream in Vivado; after configuring the ELF, regenerate the bitstream.
 ```
