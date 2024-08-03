@@ -167,29 +167,38 @@ The Linker scripts for each core of the CR5 project should also specify the same
 The resource_table is a data definition specific to OpenAMP and is used for communication between OpenAMP cores called PRMsg. This section is empty because it is not needed in this case since the UART will take the place of RPMsg. However, when Remoteproc loads ELF, it parses this resource_table section and passes the information to RPMeg, so it is necessary to define a section.
 Let's list the ELF sections as a test.
 ```
-$ source /tools/Xilinx/Vitis/2024.1/settings64.sh
-$ armr5-none-eabi-size --format=sysv app_echo_uart_r5_0.elf
-app_echo_uart_r5_0.elf  :
-section              size         addr
-.vectors            0x660          0x0
-.text              0xba34   0x3ed00000
-.init                 0xc        0x660
-.fini                 0xc        0x66c
-.rodata            0x1bb9        0x678
-.data               0x480       0x2238
-.drvcfg_sec         0xdc4       0x26b8
-.bootdata           0x180       0x3480
-.eh_frame             0x4       0x3600
-.ARM.exidx            0x8       0x3604
-.init_array           0x8       0x360c
-.fini_array           0x4       0x3614
-.ARM.attributes      0x2f       0x3618
-.bss              0x191f0   0x3ed20100
-.heap              0x1408       0x3618
-.stack             0x3800      0x20000
-.resource_table       0x0   0x3ed20000
-.comment             0x12          0x0
-Total             0x2ce7a
+$ readelf -S app_echo_uart_r5_0.elf
+There are 22 section headers, starting at offset 0x3211c:
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .vectors          PROGBITS        00000000 010000 000660 00  AX  0   0  8
+  [ 2] .text             PROGBITS        3ed00000 020000 00ba34 00  AX  0   0 16
+  [ 3] .init             PROGBITS        00000660 010660 00000c 00  AX  0   0  4
+  [ 4] .fini             PROGBITS        0000066c 01066c 00000c 00  AX  0   0  4
+  [ 5] .rodata           PROGBITS        00000678 010678 001bb9 00   A  0   0  8
+  [ 6] .data             PROGBITS        00002238 012238 000480 00  WA  0   0  8
+  [ 7] .drvcfg_sec       PROGBITS        000026b8 0126b8 000dc4 00  WA  0   0  4
+  [ 8] .bootdata         PROGBITS        00003480 013480 000180 00  WA  0   0  8
+  [ 9] .eh_frame         PROGBITS        00003600 013600 000004 00   A  0   0  4
+  [10] .ARM.exidx        ARM_EXIDX       00003604 013604 000008 00  AL  2   0  4
+  [11] .init_array       INIT_ARRAY      0000360c 01360c 000008 04  WA  0   0  4
+  [12] .fini_array       FINI_ARRAY      00003614 013614 000004 04  WA  0   0  4
+  [13] .ARM.attributes   ARM_ATTRIBUTES  00003618 02ba34 00002f 00      0   0  1
+  [14] .bss              NOBITS          3ed20100 030100 0191f0 00  WA  0   0  8
+  [15] .heap             NOBITS          00003618 013618 001408 00  WA  0   0  1
+  [16] .stack            NOBITS          00020000 020000 003800 00  WA  0   0  1
+  [17] .resource_table   PROGBITS        3ed20000 02ba63 000000 00   W  0   0  1
+  [18] .comment          PROGBITS        00000000 02ba63 000012 01  MS  0   0  1
+  [19] .symtab           SYMTAB          00000000 02ba78 003890 10     20 476  4
+  [20] .strtab           STRTAB          00000000 02f308 002d50 00      0   0  1
+  [21] .shstrtab         STRTAB          00000000 032058 0000c2 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), y (purecode), p (processor specific)
 ```
 
 The resource_table section has physical address = 0x3ed20000 and area size 0.
