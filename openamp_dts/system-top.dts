@@ -1,6 +1,6 @@
 /dts-v1/;
 
-/memreserve/	0x0000000075fec000 0x0000000003013f2e;
+/memreserve/	0x0000000075feb000 0x0000000003014fee;
 / {
 	compatible = "xlnx,zynqmp-sk-kr260-revB\0xlnx,zynqmp-sk-kr260\0xlnx,zynqmp";
 	#address-cells = <0x02>;
@@ -203,7 +203,7 @@
 
 	firmware {
 
-		zynqmp_firmware: zynqmp-firmware {
+		zynqmp_firmware:zynqmp-firmware {
 			compatible = "xlnx,zynqmp-firmware";
 			#power-domain-cells = <0x01>;
 			method = "smc";
@@ -715,7 +715,7 @@
 			phandle = <0x41>;
 		};
 
-		gic: interrupt-controller@f9010000 {
+		gic:interrupt-controller@f9010000 {
 			compatible = "arm,gic-400";
 			#interrupt-cells = <0x03>;
 			reg = <0x00 0xf9010000 0x00 0x10000 0x00 0xf9020000 0x00 0x20000 0x00 0xf9040000 0x00 0x20000 0x00 0xf9060000 0x00 0x20000>;
@@ -1569,7 +1569,7 @@
 			phandle = <0x6a>;
 		};
 
-		uart1: serial@ff010000 {
+		uart1:serial@ff010000 {
 			pinctrl-0 = <0x89>;
 			pinctrl-names = "default";
 			u-boot,dm-pre-reloc;
@@ -1908,11 +1908,11 @@
 	};
 
 	chosen {
-		linux,initrd-end = <0x00 0x78ffff2e>;
-		linux,initrd-start = <0x00 0x75fec000>;
+		linux,initrd-end = <0x00 0x78ffffee>;
+		linux,initrd-start = <0x00 0x75feb000>;
 		u-boot,bootconf = "conf-smk-k26-revA-sck-kr-g-revB";
 		u-boot,version = "2023.01";
-		bootargs = " root=LABEL=writable rootwait earlycon console=ttyPS1,115200 console=tty1 clk_ignore_unused uio_pdrv_genirq.of_id=generic-uio xilinx_tsn_ep.st_pcp=4 cma=1000M cma=512M";
+		bootargs = " root=LABEL=writable rootwait earlycon console=ttyPS1,115200 console=tty1 clk_ignore_unused uio_pdrv_genirq.of_id=generic-uio xilinx_tsn_ep.st_pcp=4 cma=1000M ";
 		stdout-path = "serial1:115200n8";
 	};
 
@@ -2121,7 +2121,6 @@
 		pmu_region = "/reserved-memory/pmu@7ff00000";
 	};
 };
-
 /include/ "zynqmp_openamp_r5_split.dtsi"
 /include/ "custom.dtsi"
 
