@@ -29,14 +29,16 @@ uart_amp.dtbo
 
 ## Information for developers
 The following changes are made in the echo-back test sample.
-**pl-custom.dtsi**
+**pl-custom.dtsi**  
 * Disable AXI-GPIO0 : used in CR5-0 core
 * Disable AXI-GPIO1 : used in CR5-1 core
 * Disable AXI-UARTLite3: used on CR5-0 core
 * Disable AXI-UARTLite4: used on CR5-1 core
 
-**pl.dtsi**
-As a KR260 board specific issue, the value of _assigned-clock-rates_ is changed to “100000000” (100MHz).
+**pl.dtsi**  
+Although the PL works normally when communicating between Linux and sub-core inside the PL, a problem of baud rate shift may occur when AXI-UARTLite's RX and TX signals are pulled out to external pins and used for debugging.  
+When using PL FCLK as the reference clock for AXI-UARTLite, the baud rate may deviate depending on the setting value of PL DevicetreeOverlay due to the rough resolution of the FCLK divider.  
+Therefore, the value of the _assigned-clock-rates_ property is changed to “100000000” (100 MHz).
 The _assigned-clock-rates_ defines the output clock frequency of FCLK0, and the default value is “99999001” (99.999001 MHz).
 The reason for this change is that when the clock driver sets the frequency divider for FCLK0 during the Devicetree Overlay, it sets one step lower to about 90.9 MHz, causing a baud rate shift in AXI-UARTLite and communication problems.
 
