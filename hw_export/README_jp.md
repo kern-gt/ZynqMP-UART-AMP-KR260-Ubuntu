@@ -28,14 +28,14 @@ uart_amp.dtbo
 ```
 
 ## 開発者向け情報
-エコーバックテストのサンプルでは以下の内容の変更を行っています。
-**pl-custom.dtsi**  
+エコーバックテストのサンプルでは以下の内容の変更を行っています。  
+### pl-custom.dtsi
 * AXI-GPIO0の無効化 : CR5-0コアで使用
 * AXI-GPIO1の無効化 : CR5-1コアで使用
 * AXI-UARTLite3の無効化 : CR5-0コアで使用
 * AXI-UARTLite4の無効化 : CR5-1コアで使用
 
-**pl.dtsi**  
+### pl.dtsi
 PL内部でLinux-サブコア間通信する場合は正常に動作しますが、AXI-UARTLiteのRX、TX信号を外部端子に引き出して、デバッグに使用する場合などはボーレートずれの問題が起こる場合があります。  
 AXI-UARTLiteの基準クロックにPL FCLKを使用している場合、FCLKの分周器の分解能が荒いため、PL DevicetreeOverlayの設定値によってはボーレートがずれてしまいます。  
 そのため、_assigned-clock-rates_ プロパティの値を"100000000"(100MHz)に変更しています。
